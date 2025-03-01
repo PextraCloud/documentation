@@ -50,6 +50,10 @@
       - [Network](./installation/prerequisites/hardware/network.md)
     - [Supported Servers](./installation/prerequisites/supported-servers.md)
 
+- [User Guide](./user-guide/guide/index.md)
+  - [Prerequisites](./user-guide/guide/ui.md)
+  - [VM Management](./user-guide/guide/vmmanage.md)
+
 <!--
   - [Downloading the Installer](./installation/guide/downloading-installer.md)
   - [Preparing Installation Media](./installation/guide/bootable-media.md)
