@@ -1,0 +1,2 @@
+# Reporting Issues
+This section provides guidance on how to effectively report issues, bugs, and feature requests related to the software. It includes instructions on collecting logs, creating support tickets, and gathering diagnostic information to assist in troubleshooting and resolution.

@@ -1,0 +1,2 @@
+# Seeking Help
+This section provides guidance on how to seek help through the appropriate channels, including the official helpdesk and community forum. It also includes tips for effective support tickets to ensure a smooth resolution process.

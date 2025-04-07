@@ -3,7 +3,7 @@ authors = ["Pextra Inc."]
 language = "en"
 multilingual = false
 src = "src"
-title = "Pextra CloudEnvironment® Documentation"
+title = "Pextra Documentation"
 description = "User documentation for the Pextra CloudEnvironment® private cloud management platform."
 
 [output.html]
@@ -15,4 +15,9 @@ git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/PextraCloud/documentation/edit/master/cloudenvironment/{path}"
 site-url = "/cloudenvironment/"
 
+[output.html.fold]
+enable = true
+level = 2
 
+[output.linkcheck]
+[preprocessor.alerts]
