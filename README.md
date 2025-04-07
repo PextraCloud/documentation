@@ -8,6 +8,20 @@ The latest build of the documentation is available [here](https://docs.pextra.cl
 
 Documentation is built with [mdBook](https://github.com/rust-lang/mdBook).
 
+### Prerequisites
+
+The following mdBook plugins must be installed:
+- `mdbook-alerts`
+- `mdbook-linkcheck`
+
+Each plugin can be installed with the following command:
+
+```bash
+cargo install <plugin-name>
+```
+
+### Development
+
 To serve the documentation locally, run `mdbook serve --open`.
 The default port is **3000**.
 
