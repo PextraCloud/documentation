@@ -29,7 +29,13 @@ jobs:
         run: |
           curl -sSL https://github.com/lambdalisue/rs-mdbook-alerts/releases/latest/download/mdbook-alerts-x86_64-unknown-linux-gnu -o mdbook-alerts
           chmod +x mdbook-alerts
-          echo `pwd`/mdbook-alerts >> $GITHUB_PATH
+          sudo mv mdbook-alerts /usr/bin
+
+          curl -sSL https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/latest/download/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip -o mdbook-linkcheck.zip
+          unzip -o mdbook-linkcheck.zip
+          rm mdbook-linkcheck.zip
+          chmod +x mdbook-linkcheck
+          sudo mv mdbook-linkcheck /usr/bin
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
