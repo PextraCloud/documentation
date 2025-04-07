@@ -23,6 +23,13 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
+      
+      # TODO: use cargo
+      - name: Install mdBook plugins
+        run: |
+          curl -sSL https://github.com/lambdalisue/rs-mdbook-alerts/releases/latest/download/mdbook-alerts-x86_64-unknown-linux-gnu -o mdbook-alerts
+          chmod +x mdbook-alerts
+          echo `pwd`/mdbook-alerts >> $GITHUB_PATH
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
