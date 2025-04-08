@@ -38,9 +38,6 @@ Follow the steps below to install Pextra CloudEnvironment® on your server.
 	- If you did not select "Auto-reboot" during the installation, you will need to click "Reboot" to restart the server.
 	- Remove the installation media (USB drive or DVD) before rebooting, otherwise the server may boot from the installation media again.
 
-Your server is now ready to use! You can access the Pextra CloudEnvironment® web interface by entering the management IP address in your web browser. The default URL is `https://<management-ip>:5007`, where `<management-ip>` is the IP address you configured during the installation process.
-
-> [!NOTE]
-> The web interface uses HTTPS for secure communication. You will see a self-signed certificate warning in your browser. This is normal, as the certificate is generated during the installation process. You can safely ignore this warning and proceed to the web interface.
+Your server is now ready to use! To access the web interface, please refer to the [Accessing the Web Interface](../../user-guide/web-interface/index.md) section.
 
 You can now proceed to perform post-installation steps to configure your deployment.

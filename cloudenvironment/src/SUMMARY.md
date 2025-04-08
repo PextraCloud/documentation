@@ -21,9 +21,15 @@
 
 # User Guide
 
-- [Node Management](./user-guide/nodes.md)
-  - [Upgrading](./user-guide/nodes/upgrading.md)
+- [Web Interface Overview](./user-guide/web-interface/index.md)
+  - [Accessing the Web Interface](./user-guide/web-interface/accessing.md)
+  - [Logging In](./user-guide/web-interface/logging-in.md)
+  - [Resource Tree](./user-guide/web-interface/resource-tree.md)
+- [Node Management](./user-guide/nodes/index.md)
+  - [System Upgrade](./user-guide/nodes/system-upgrade.md)
+  - [Set License Key](./user-guide/nodes/set-license-key.md)
 - [Cluster Management](./user-guide/clusters.md)
+  - [Check Licensing Status](./user-guide/clusters/check-licensing-status.md)
 - [Datacenter Management](./user-guide/datacenters.md)
 - [Organization Management](./user-guide/organizations.md)
   - [Identity Access Management (IAM)](./user-guide/organizations/iam.md)

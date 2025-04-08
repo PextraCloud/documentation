@@ -3,7 +3,7 @@ After the installation is complete, you may need to perform some additional step
 
 ## Post-Installation Steps
 ## a) Upgrade to the latest version:
-   - After the installation, it is recommended to check for any available updates. Refer to the [Upgrading](../user-guide/nodes/upgrading.md) section for instructions on how to upgrade your deployment to the latest version.
+   - After the installation, it is recommended to check for any available updates. Refer to the [System Upgrade](../user-guide/nodes/system-upgrade.md) section for instructions on how to upgrade your deployment to the latest version.
 
 ## b) Join the node to an existing cluster (if applicable):
    - If you are deploying a cluster, you can join the node to an existing cluster. Refer to the [Cluster Management](../user-guide/clusters.md) section for instructions on how to join a node to a cluster.
