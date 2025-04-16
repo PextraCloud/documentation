@@ -9,11 +9,6 @@ Hardware-based RAID cards are **NOT** supported. The platform requires direct ac
 > [!WARNING]
 > This has been reported to work, but it is not officially supported. Use this workaround at your own risk.
 
-## ARM-Based CPUs
-Currently, Pextra CloudEnvironment® does not support ARM-based CPUs (e.g., `aarch64`), although this may change in the future. The platform is only supported on 64-bit CPUs with the `amd64` architecture.
-
-**Workaround:** Use a different server with an `amd64` CPU architecture.
-
 ## 32-Bit CPUs
 Pextra CloudEnvironment® does not support 32-bit CPUs. The platform requires a 64-bit CPU. 32-bit CPUs will never be supported.
 
