@@ -1,7 +1,6 @@
 # Post-Installation Steps
 After the installation is complete, you may need to perform some additional steps to ensure that your Pextra CloudEnvironment® deployment is fully functional and optimized for your needs.
 
-## Post-Installation Steps
 ## a) Upgrade to the latest version:
    - After the installation, it is recommended to check for any available updates. Refer to the [System Upgrade](../user-guide/nodes/system-upgrade.md) section for instructions on how to upgrade your deployment to the latest version.
 
