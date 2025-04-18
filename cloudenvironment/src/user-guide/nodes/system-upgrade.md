@@ -1,7 +1,7 @@
 # System Upgrade
 System upgrades should be routinely performed in order to ensure that the latest bug fixes, security patches, and features are available.
 > [!NOTE]
-> A valid license key must be present when upgrading Pextra CloudEnvironment®.
+> A valid license key must be present when upgrading Pextra CloudEnvironment®. To set the node's license key, refer to the [Set License Key](./set-license-key.md) section.
 
 > [!WARNING]
 > System upgrades will fail if they are not run as the `root` Linux user.
