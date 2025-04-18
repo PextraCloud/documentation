@@ -17,7 +17,7 @@ We welcome contributions to our documentation. Whether you want to fix a typo, a
 
 4. Wait for feedback from the maintainers. They may request changes or approve your PR. Once approved, your changes will be merged into the main repository.
 
-5. Celebrate your contribution!
+5. Celebrate your contribution! 🎉
 
 ### Full Development Setup
 1. [Create a GitHub account](https://github.com/signup) if you don't have one.
@@ -64,4 +64,4 @@ We welcome contributions to our documentation. Whether you want to fix a typo, a
 
 10. Wait for feedback from the maintainers. They may request changes or approve your PR. Once approved, your changes will be merged into the main repository.
 
-11. Celebrate your contribution!
+11. Celebrate your contribution! 🎉
