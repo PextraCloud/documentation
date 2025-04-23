@@ -51,6 +51,9 @@ MacOS users can also use the `dd` command to create a bootable USB drive. The pr
 Your USB drive is now ready to be used for installation.
 
 ## Windows
+Due to incompatibility issues, creating a bootable USB drive on Windows is currently not supported. Linux or MacOS must be used. This will change in the future.
+
+<!--
 Windows users can use [Rufus](https://rufus.ie/) to create a bootable USB drive, as there is no built-in mechanism to create bootable USB drives from ISO files. Rufus is free and open source software.
 
 1. Download the latest version of [Rufus](https://rufus.ie/) and run it.
@@ -63,3 +66,4 @@ Windows users can use [Rufus](https://rufus.ie/) to create a bootable USB drive,
 8. Safely eject the USB drive from your computer.
 
 Your USB drive is now ready to be used for installation.
+-->
