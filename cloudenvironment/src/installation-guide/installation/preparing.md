@@ -51,19 +51,34 @@ MacOS users can also use the `dd` command to create a bootable USB drive. The pr
 Your USB drive is now ready to be used for installation.
 
 ## Windows
-Due to incompatibility issues, creating a bootable USB drive on Windows is currently not supported. Linux or MacOS must be used. This will change in the future.
-
-<!--
-Windows users can use [Rufus](https://rufus.ie/) to create a bootable USB drive, as there is no built-in mechanism to create bootable USB drives from ISO files. Rufus is free and open source software.
+Windows users can use [Rufus](https://rufus.ie/) in DD mode to create a bootable USB drive, as there is no built-in mechanism to create bootable USB drives from ISO files. Rufus is free and open source software.
 
 1. Download the latest version of [Rufus](https://rufus.ie/) and run it.
-2. Insert a USB drive with at least 8GB of space. Make sure to back up any important data on the drive, as it will be formatted.
-3. In Rufus, select the USB drive and click on "SELECT" to choose the downloaded ISO file.
-4. Choose the partition scheme (MBR or GPT) based on your server's BIOS settings. For UEFI systems, select GPT; for legacy BIOS, select MBR. If you are unsure, choose MBR.
-5. Leave the file system as FAT32.
-6. Click "START" to begin the process. Rufus will format the USB drive and copy the ISO contents to it.
-7. Once the process is complete, you will see a message indicating that the USB drive is ready.
+
+2. Insert a USB drive with at least 8GB of space. Make sure to back up any important data on the drive, as it will be formatted. In Rufus, select the USB drive by clicking on the "Device" dropdown menu:
+
+   ![Rufus](./images/00-rufus.png)
+
+3. Select the downloaded ISO file by clicking on the "SELECT" button. Navigate to the location where you saved the ISO file and select it:
+
+   ![Rufus select ISO](./images/01-rufus-iso.png)
+
+4. With the USB and ISO ready, the window should similar to this. Click on "START" button to begin the process:
+
+   ![Rufus ready](./images/02-rufus-ready.png)
+
+5. A pop-up window will appear. Select "Write in DD Image mode" and click "OK":
+
+   ![Rufus select DD](./images/03-rufus-dd.png)
+
+6. Another pop-up window will appear, warning you that all data on the USB drive will be erased. Click "OK" to proceed:
+
+   ![Rufus confirm](./images/04-rufus-confirm.png)
+
+7. Once the process is complete, the bar will be green and say "READY". You can close Rufus:
+
+   ![Rufus complete](./images/05-rufus-complete.png)
+
 8. Safely eject the USB drive from your computer.
 
 Your USB drive is now ready to be used for installation.
--->
