@@ -14,7 +14,7 @@ Refer to the [Identity Access Management (IAM)](../user-guide/organizations/iam.
 Refer to the [Network Management](../user-guide/networks.md) section for instructions on how to configure network settings.
 
 ## e) Configure storage pools:
-Refer to the [Storage Management](../user-guide/storage.md) section for instructions on how to create and manage storage pools.
+Refer to the [Storage Management](../user-guide/storage/index.md) section for instructions on how to create and manage storage pools.
 
 ## f) Monitor system performance:
 Refer to the [Monitoring & Metrics](../user-guide/monitoring-metrics.md) section for instructions on how to monitor system performance.

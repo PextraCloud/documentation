@@ -1,0 +1,2 @@
+# Storage Management
+This section provides a guide to managing storage within your deployment. The Pextra CloudEnvironment® storage engine supports a variety of storage technologies, from local disks to distributed storage systems.
