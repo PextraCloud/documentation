@@ -40,4 +40,4 @@ Follow the steps below to install Pextra CloudEnvironment® on your server.
 
 Your server is now ready to use! To access the web interface, please refer to the [Accessing the Web Interface](../../user-guide/web-interface/index.md) section.
 
-You can now proceed to perform post-installation steps to configure your deployment.
+You can now proceed to perform [post-installation steps](../post-installation.md) to configure your deployment.

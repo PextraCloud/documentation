@@ -28,6 +28,7 @@
 - [Node Management](./user-guide/nodes/index.md)
   - [System Upgrade](./user-guide/nodes/system-upgrade.md)
   - [Set License Key](./user-guide/nodes/set-license-key.md)
+  - [Set CockroachDB License Key](./user-guide/nodes/set-cockroachdb-license-key.md)
 - [Cluster Management](./user-guide/clusters.md)
   - [Check Licensing Status](./user-guide/clusters/check-licensing-status.md)
 - [Datacenter Management](./user-guide/datacenters.md)
