@@ -15,7 +15,7 @@ We welcome contributions to our documentation. Whether you want to fix a typo, a
    - Commit your changes with a clear and descriptive commit message. We use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit messages, so please follow that format:
    ![One-click pull request](./images/01-edit-pr.png)
 
-4. Wait for feedback from the maintainers. They may request changes or approve your PR. Once approved, your changes will be merged into the main repository.
+4. Wait for feedback from the maintainers. They may request changes or approve your PR. Once approved, your changes will be merged.
 
 5. Celebrate your contribution! 🎉
 
@@ -54,7 +54,7 @@ We welcome contributions to our documentation. Whether you want to fix a typo, a
    git push origin <name>/<feature>
    ```
 
-9. Create a pull request (PR) to the main repository:
+9. Create a pull request (PR) to the original repository:
    ![Create a pull request](./images/03-pr.png)
    - Navigate to [the original documentation repository](https://github.com/PextraCloud/documentation).
    - Click on the "Pull Requests" tab.
@@ -62,6 +62,6 @@ We welcome contributions to our documentation. Whether you want to fix a typo, a
    - Select your branch and click "Create Pull Request."
    - Provide a clear description of your changes and why they are needed.
 
-10. Wait for feedback from the maintainers. They may request changes or approve your PR. Once approved, your changes will be merged into the main repository.
+10. Wait for feedback from the maintainers. They may request changes or approve your PR. Once approved, your changes will be merged.
 
 11. Celebrate your contribution! 🎉
