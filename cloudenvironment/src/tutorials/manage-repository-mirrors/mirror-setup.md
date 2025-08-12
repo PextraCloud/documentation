@@ -138,5 +138,5 @@ gpg --armor --export <your-gpg-key-fingerprint> > /usr/share/keyrings/pextra-mir
 Keep a copy of this key file, as it will be needed to configure your offline servers to use the mirror.
 
 To use the mirror on your offline Pextra CloudEnvironment® servers, follow the relevant setup instructions based on your airgap type:
-- [Restricted Airgap Setup](./restricted-airgap-setup.md)
-- [Full Airgap Setup](./full-airgap-setup.md)
+- [Restricted Airgap Setup](./restricted-airgap.md)
+- [Full Airgap Setup](./full-airgap.md)

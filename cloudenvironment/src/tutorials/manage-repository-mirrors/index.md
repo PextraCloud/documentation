@@ -34,5 +34,5 @@ Complete network isolation with no connectivity to external servers. Package upd
     - [Mirror Setup](./mirror-setup.md)
 
 2. Follow the relevant setup instructions based on your airgap type:
-    - [Restricted Airgap Setup](./restricted-airgap-setup.md)
-    - [Full Airgap Setup](./full-airgap-setup.md)
+    - [Restricted Airgap Setup](./restricted-airgap.md)
+    - [Full Airgap Setup](./full-airgap.md)
