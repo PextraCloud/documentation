@@ -52,6 +52,13 @@
 - [Instance Management](./user-guide/instance.md)
 - [Monitoring & Metrics](./user-guide/monitoring-metrics.md)
 
+# Tutorials
+
+- [Repository Mirrors for Airgapped Environments](./tutorials/manage-repository-mirrors/index.md)
+  - [Mirror Setup](./tutorials/manage-repository-mirrors/mirror-setup.md)
+  - [Restricted Airgap Setup](./tutorials/manage-repository-mirrors/restricted-airgap.md)
+  - [Full Airgap Setup](./tutorials/manage-repository-mirrors/full-airgap.md)
+
 # Issue Mitigation
 
 - [Troubleshooting](./issues/troubleshooting/index.md)
