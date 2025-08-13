@@ -52,3 +52,18 @@ jobs:
       - name: Deploy to Pages
         id: documentation
         uses: actions/deploy-pages@v4
+        
+      - name: Create documentation package
+        run: tar -czf documentation-package.tar.gz -C cloudenvironment/book/html .
+
+      - run: echo "COMMIT_SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: documentation-package.tar.gz
+          tag_name: docs-${{ env.COMMIT_SHA_SHORT }}
+          name: docs-(${{ env.COMMIT_SHA_SHORT }})
+          body: |
+            This release contains the latest documentation package. The documentation package is used by Pextra CloudEnvironment® to provide an offline version of the documentation.
+          draft: false
+          prerelease: false
