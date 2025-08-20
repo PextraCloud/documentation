@@ -19,5 +19,8 @@ Refer to the [Network Management](../user-guide/networks.md) section for instruc
 ## f) Configure storage pools:
 Refer to the [Storage Management](../user-guide/storage/index.md) section for instructions on how to create and manage storage pools.
 
-## g) Monitor system performance:
+## g) Configure AI providers
+Refer to the [AI Providers](../user-guide/organizations/ai-providers/index.md) section for instructions on how to add and configure AI providers.
+
+## h) Monitor system performance:
 Refer to the [Monitoring & Metrics](../user-guide/monitoring-metrics.md) section for instructions on how to monitor system performance.
