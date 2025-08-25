@@ -57,7 +57,7 @@ jobs:
         uses: actions/deploy-pages@v4
         
       - name: Create documentation package
-        run: tar -czf pce-docs.tar.gz -C cloudenvironment/book/html .
+        run: tar -czf pce-docs.tar.gz -C cloudenvironment/book/merged .
 
       - run: echo "COMMIT_SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
       - name: Create GitHub Release
