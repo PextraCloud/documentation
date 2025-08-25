@@ -40,6 +40,9 @@ jobs:
         run: |
           mdbook build cloudenvironment
 
+      - name: Install Perl dependencies
+        run: sudo apt install libfile-copy-recursive-perl
+
       - name: Run post-build script(s)
         run: |
           perl ./merge-dirs.pl cloudenvironment/book/html cloudenvironment/book/markdown cloudenvironment/book/llms-txt cloudenvironment/book/llms-txt-full cloudenvironment/book/merged
