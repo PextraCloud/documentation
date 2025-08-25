@@ -26,7 +26,12 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
       - name: Install mdBook and plugins
-        run: cargo install mdbook mdbook-alerts mdbook-linkcheck mdbook-llms-txt-tools
+        run: |
+          echo "${HOME}/.cargo/bin" >> $GITHUB_PATH
+          command -v mdbook >/dev/null 2>&1 || cargo install mdbook
+          command -v mdbook-alerts >/dev/null 2>&1 || cargo install mdbook-alerts
+          command -v mdbook-linkcheck >/dev/null 2>&1 || cargo install mdbook-linkcheck
+          command -v mdbook-llms-txt-tools >/dev/null 2>&1 || cargo install mdbook-llms-txt-tools
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
