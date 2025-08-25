@@ -14,28 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
-      - name: Install mdBook
-        run: |
-          tag=$(curl 'https://api.github.com/repos/rust-lang/mdbook/releases/latest' | jq -r '.tag_name')
-          url="https://github.com/rust-lang/mdbook/releases/download/${tag}/mdbook-${tag}-x86_64-unknown-linux-gnu.tar.gz"
-          mkdir mdbook
-          curl -sSL $url | tar -xz --directory=./mdbook
-          echo `pwd`/mdbook >> $GITHUB_PATH
-      
-      # TODO: use cargo
-      - name: Install mdBook plugins
-        run: |
-          curl -sSL https://github.com/lambdalisue/rs-mdbook-alerts/releases/latest/download/mdbook-alerts-x86_64-unknown-linux-gnu -o mdbook-alerts
-          chmod +x mdbook-alerts
-          sudo mv mdbook-alerts /usr/bin
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index
+            ~/.cargo/registry/cache
+            ~/.cargo/git/db
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
-          curl -sSL https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/latest/download/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip -o mdbook-linkcheck.zip
-          unzip -o mdbook-linkcheck.zip
-          rm mdbook-linkcheck.zip
-          chmod +x mdbook-linkcheck
-          sudo mv mdbook-linkcheck /usr/bin
+      - name: Install mdBook and plugins
+        run: cargo install mdbook mdbook-alerts mdbook-linkcheck
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
