@@ -13,6 +13,7 @@ Documentation is built with [mdBook](https://github.com/rust-lang/mdBook).
 The following mdBook plugins must be installed:
 - `mdbook-alerts`
 - `mdbook-linkcheck`
+- `mdbook-llms-txt-tools`
 
 Each plugin can be installed with the following command:
 
@@ -24,6 +25,8 @@ cargo install <plugin-name>
 
 To serve the documentation locally, run `mdbook serve --open`.
 The default port is **3000**.
+
+After building, directories in the output directory (`book/`) are merged together by running [merge-dirs.pl](./merge-dirs.pl) (see [.github/workflows/deploy.yml](.github/workflows/deploy.yml) for details). This is necessary for the `llms.txt` files to be correctly placed in the root of the output directory, along with the markdown output for the aforementioned `llms.txt` files.
 
 ## License
 

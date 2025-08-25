@@ -1,6 +1,7 @@
 # Summary
 
 [Introduction](./introduction.md)
+[For AI Agents](./for-ai-agents.md)
 
 ---
 
