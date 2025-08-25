@@ -26,7 +26,7 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
       - name: Install mdBook and plugins
-        run: cargo install mdbook mdbook-alerts mdbook-linkcheck
+        run: cargo install mdbook mdbook-alerts mdbook-linkcheck mdbook-llms-txt-tools
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
@@ -35,10 +35,14 @@ jobs:
         run: |
           mdbook build cloudenvironment
 
+      - name: Run post-build script(s)
+        run: |
+          perl ./merge-dirs.pl cloudenvironment/book/html cloudenvironment/book/markdown cloudenvironment/book/llms-txt cloudenvironment/book/llms-txt-full cloudenvironment/book/merged
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'cloudenvironment/book/html'
+          path: 'cloudenvironment/book/merged'
 
       - name: Deploy to Pages
         id: documentation
