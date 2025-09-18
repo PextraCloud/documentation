@@ -3,5 +3,5 @@ We support [the /llms.txt standard](https://llmstxt.org/) for providing structur
 
 The following /llms.txt files are available for use:
 
-- [/llms.txt](/llms.txt): A shorter file that provides links and metadata about the documentation.
-- [/llms-full.txt](/llms-full.txt): The complete documentation in a single file.
+- [/llms.txt](llms.txt): A shorter file that provides links and metadata about the documentation.
+- [/llms-full.txt](llms-full.txt): The complete documentation in a single file.
