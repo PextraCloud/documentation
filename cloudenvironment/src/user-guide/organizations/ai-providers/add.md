@@ -1,5 +1,5 @@
 # Add AI Provider
-Add an AI provider to your organization to enable AI features in the Pextra CloudEnvironment® web interface. At least one AI provider must be configured and enabled for the AI Assist feature to function. If no AI providers are configured, the AI Assist feature will not be available in the web interface.
+Add an AI provider to your organization to enable AI features in the Pextra CloudEnvironment® web interface. At least one AI provider must be configured and enabled for AI features to function. If no AI providers are configured, the AI features will not be available in the web interface.
 
 > [!NOTE]
 > For security reasons, the API keys for AI providers are not displayed in the web interface. API keys cannot be retrieved once set. Store your API keys securely.
@@ -23,7 +23,7 @@ Add an AI provider to your organization to enable AI features in the Pextra Clou
 5. Enter a name for the AI provider, and an optional description. Disable the provider if you do not want it to be available for use immediately.
    ![AI Provider name and description](./images/04-ai-provider-name-desc.png)
 
-6. Enter the name of the model to use with this provider. This model will be used for all AI Assist features unless overridden in specific configurations.
+6. Enter the name of the model to use with this provider. This model will be used for all AI features unless overridden in specific configurations.
    ![AI Provider model](./images/05-ai-provider-model.png)
 
 7. Click **Create** to add the AI provider to your organization. The new AI provider will be listed on the AI Providers page.
