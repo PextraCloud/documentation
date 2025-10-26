@@ -1,0 +1,4 @@
+# Why is Pextra CloudEnvironment® distributed as an ISO image?
+To ensure a consistent and reliable installation experience across diverse hardware environments, Pextra CloudEnvironment® is distributed as an ISO image instead of traditional package formats.
+
+If distributed as system packages, users would need to manually install a compatible operating system, configure storage, networking, and dependencies, which could lead to inconsistencies and potential misconfigurations. By using an ISO image, we provide a pre-configured environment that includes all necessary components, ensuring that installations are uniform and optimized for Pextra CloudEnvironment®.

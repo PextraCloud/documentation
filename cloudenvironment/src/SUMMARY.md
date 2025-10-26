@@ -62,12 +62,11 @@
 - [Instance Management](./user-guide/instance.md)
 - [Monitoring & Metrics](./user-guide/monitoring-metrics.md)
 
-# Tutorials
-
-- [Repository Mirrors for Airgapped Environments](./tutorials/manage-repository-mirrors/index.md)
-  - [Mirror Setup](./tutorials/manage-repository-mirrors/mirror-setup.md)
-  - [Restricted Airgap Setup](./tutorials/manage-repository-mirrors/restricted-airgap.md)
-  - [Full Airgap Setup](./tutorials/manage-repository-mirrors/full-airgap.md)
+# Frequently Asked Questions
+- [Why did my node go down?](./faq/node-down.md)
+- [How are disks formatted during installation?](./faq/install-disk-formatting.md)
+- [Why is Pextra CloudEnvironment® distributed as an ISO image?](./faq/iso-distribution.md)
+- [How do I change the IP address of a node?](./faq/change-node-ip-address.md)
 
 # Issue Mitigation
 
@@ -81,6 +80,13 @@
     - [Community Forum](./issues/reporting/support-ticket/community-forum.md)
     - [Tips for Support Tickets](./issues/reporting/support-ticket/tips.md)
   - [Gathering Diagnostic Information](./issues/reporting/diagnostic-information.md)
+
+# Tutorials
+
+- [Repository Mirrors for Airgapped Environments](./tutorials/manage-repository-mirrors/index.md)
+  - [Mirror Setup](./tutorials/manage-repository-mirrors/mirror-setup.md)
+  - [Restricted Airgap Setup](./tutorials/manage-repository-mirrors/restricted-airgap.md)
+  - [Full Airgap Setup](./tutorials/manage-repository-mirrors/full-airgap.md)
 
 # Feedback & Contributions
 
