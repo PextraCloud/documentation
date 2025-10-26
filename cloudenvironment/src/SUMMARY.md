@@ -35,16 +35,16 @@
   - [Set CockroachDB License Key](./user-guide/nodes/set-cockroachdb-license-key.md)
 - [Cluster Management](./user-guide/clusters.md)
   - [Check Licensing Status](./user-guide/clusters/check-licensing-status.md)
-- [Datacenter Management](./user-guide/datacenters.md)
+<!-- - [Datacenter Management](./user-guide/datacenters.md) -->
 - [Organization Management](./user-guide/organizations.md)
-  - [Identity Access Management (IAM)](./user-guide/organizations/iam.md)
+  <!-- - [Identity Access Management (IAM)](./user-guide/organizations/iam.md) -->
   - [AI Providers](./user-guide/organizations/ai-providers/index.md)
     - [Supported AI Providers](./user-guide/organizations/ai-providers/supported.md)
     - [List AI Providers](./user-guide/organizations/ai-providers/list.md)
     - [Add AI Provider](./user-guide/organizations/ai-providers/add.md)
     - [Edit AI Provider](./user-guide/organizations/ai-providers/edit.md)
     - [Delete AI Provider](./user-guide/organizations/ai-providers/delete.md)
-- [Network Management](./user-guide/networks.md)
+<!-- - [Network Management](./user-guide/networks.md) -->
 - [Storage Management](./user-guide/storage/index.md)
   - [Storage Pools](./user-guide/storage/pools/index.md)
     - [List Storage Pools](./user-guide/storage/pools/list.md)
@@ -59,8 +59,8 @@
     - [Attach Volume](./user-guide/storage/volumes/attach.md)
     - [Detach Volume](./user-guide/storage/volumes/detach.md)
     - [Destroy Volume](./user-guide/storage/volumes/destroy.md)
-- [Instance Management](./user-guide/instance.md)
-- [Monitoring & Metrics](./user-guide/monitoring-metrics.md)
+<!-- - [Instance Management](./user-guide/instance.md) -->
+<!-- - [Monitoring & Metrics](./user-guide/monitoring-metrics.md) -->
 
 # Frequently Asked Questions
 - [Why did my node go down?](./faq/node-down.md)
@@ -70,16 +70,16 @@
 
 # Issue Mitigation
 
-- [Troubleshooting](./issues/troubleshooting/index.md)
+<!-- - [Troubleshooting](./issues/troubleshooting/index.md)
   - [Known Issues](./issues/troubleshooting/known-issues.md)
-  - [Logs & Diagnostics](./issues/troubleshooting/logs-diagnostics.md)
+  - [Logs & Diagnostics](./issues/troubleshooting/logs-diagnostics.md) -->
 - [Reporting Issues](./issues/reporting/index.md)
   - [Collecting Logs](./issues/reporting/collecting-logs.md)
   - [Seeking Help](./issues/reporting/support-ticket/index.md)
     - [Official Helpdesk](./issues/reporting/support-ticket/helpdesk.md)
     - [Community Forum](./issues/reporting/support-ticket/community-forum.md)
     - [Tips for Support Tickets](./issues/reporting/support-ticket/tips.md)
-  - [Gathering Diagnostic Information](./issues/reporting/diagnostic-information.md)
+  <!-- - [Gathering Diagnostic Information](./issues/reporting/diagnostic-information.md) -->
 
 # Tutorials
 
