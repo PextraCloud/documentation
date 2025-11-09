@@ -11,7 +11,7 @@ Refer to the [Set CockroachDB License Key](../user-guide/nodes/set-cockroachdb-l
 Refer to the [Cluster Management](../user-guide/clusters.md) section for instructions on how to join a node to a cluster if you are deploying a cluster or joining a node to an existing cluster.
 
 ## d) Configure user accounts:
-Refer to the [Identity Access Management (IAM)](../user-guide/organizations/iam.md) section for instructions on how to create and manage user accounts and permissions.
+Refer to the [Identity Access Management (IAM)](../user-guide/organizations/iam/index.md) section for instructions on how to create and manage user accounts and permissions.
 
 ## e) Configure networking:
 Refer to the [Network Management](../user-guide/networks.md) section for instructions on how to configure network settings.

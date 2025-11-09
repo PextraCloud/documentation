@@ -37,7 +37,13 @@
   - [Check Licensing Status](./user-guide/clusters/check-licensing-status.md)
 <!-- - [Datacenter Management](./user-guide/datacenters.md) -->
 - [Organization Management](./user-guide/organizations.md)
-  <!-- - [Identity Access Management (IAM)](./user-guide/organizations/iam.md) -->
+  - [Identity Access Management (IAM)](./user-guide/organizations/iam/index.md)
+    - [View Users](./user-guide/organizations/iam/users/view.md)
+    - [Create A User](./user-guide/organizations/iam/users/create.md)
+    - [Delete A User](./user-guide/organizations/iam/users/delete.md)
+  - [Auditing and Compliance](./user-guide/audit/index.md)
+    - [Audit Trail](./user-guide/audit/audit.md)
+    - [Audit User Lockout](./user-guide/audit/lockouts.md)
   - [AI Providers](./user-guide/organizations/ai-providers/index.md)
     - [Supported AI Providers](./user-guide/organizations/ai-providers/supported.md)
     - [List AI Providers](./user-guide/organizations/ai-providers/list.md)
