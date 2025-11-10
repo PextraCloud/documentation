@@ -6,8 +6,8 @@ Follow the steps below to install Pextra CloudEnvironment® on your server.
 
 2. Configure the management network.
 	- The installer will automatically detect network interface configuration from DHCP.
-	- The server IP **must not** change after installation. It **will** cause breakage.
-	- If your network interface does not appear, please [let us know](../../issues/reporting/index.md).
+    - The server IP **must not** change after installation (unless you are an **advanced user**—see the related Community FAQ).
+    - If your network interface does not appear, please [let us know](../../issues/reporting/index.md).
 
 3. Enter your license key.
 	- If you do not have a license key, refer to the [Pre-Installation](../pre-installation.md) section for more information on obtaining a license.
