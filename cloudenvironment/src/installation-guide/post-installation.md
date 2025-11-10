@@ -8,7 +8,7 @@ Refer to the [System Upgrade](../user-guide/nodes/system-upgrade.md) section for
 Refer to the [Set CockroachDB License Key](../user-guide/nodes/set-cockroachdb-license-key.md) section for instructions on how to set the CockroachDB license key. This is **not** required if your node will join an existing, licensed cluster.
 
 ## c) Join the node to an existing cluster (if applicable):
-Refer to the [Cluster Management](../user-guide/clusters.md) section for instructions on how to join a node to a cluster if you are deploying a cluster or joining a node to an existing cluster.
+Refer to the [Cluster Management](../user-guide/clusters/index.md) section for instructions on how to join a node to a cluster if you are deploying a cluster or joining a node to an existing cluster.
 
 ## d) Configure user accounts:
 Refer to the [Identity Access Management (IAM)](../user-guide/organizations/iam/index.md) section for instructions on how to create and manage user accounts and permissions.
