@@ -14,7 +14,7 @@ Refer to the [Cluster Management](../user-guide/clusters.md) section for instruc
 Refer to the [Identity Access Management (IAM)](../user-guide/organizations/iam/index.md) section for instructions on how to create and manage user accounts and permissions.
 
 ## e) Configure networking:
-Refer to the [Network Management](../user-guide/networks.md) section for instructions on how to configure network settings.
+Refer to the [Network Management](../user-guide/nw/networks.md) section for instructions on how to configure network settings.
 
 ## f) Configure storage pools:
 Refer to the [Storage Management](../user-guide/storage/index.md) section for instructions on how to create and manage storage pools.
@@ -23,4 +23,4 @@ Refer to the [Storage Management](../user-guide/storage/index.md) section for in
 Refer to the [AI Providers](../user-guide/organizations/ai-providers/index.md) section for instructions on how to add and configure AI providers.
 
 ## h) Monitor system performance:
-Refer to the [Monitoring & Metrics](../user-guide/monitoring-metrics.md) section for instructions on how to monitor system performance.
+Refer to the [Monitoring & Metrics](../user-guide/monitoring-metrics/index.md) section for instructions on how to monitor system performance.

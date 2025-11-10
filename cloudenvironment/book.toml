@@ -19,8 +19,8 @@ site-url = "/cloudenvironment/"
 enable = true
 level = 2
 
-#[output.linkcheck]
-#exclude = ['llms.txt', 'llms-full.txt']
+[output.linkcheck]
+exclude = ['llms.txt', 'llms-full.txt']
 
 [preprocessor.alerts]
 [output.markdown]
