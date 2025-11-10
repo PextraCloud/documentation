@@ -65,10 +65,19 @@
     - [Attach Volume](./user-guide/storage/volumes/attach.md)
     - [Detach Volume](./user-guide/storage/volumes/detach.md)
     - [Destroy Volume](./user-guide/storage/volumes/destroy.md)
-<!-- - [Instance Management](./user-guide/instance.md) -->
+- [Instance Management](./user-guide/instance/index.md)
+  - [Instance Deploy](./user-guide/instance/deploy.md)
+  - [Instance State](./user-guide/instance/states.md)
+    - [Instance State Start](./user-guide/instance/states/start.md)
+    - [Instance State Stop](./user-guide/instance/states/stop.md)
+    - [Instance State Force Stop](./user-guide/instance/states/fstop.md)
+    - [Instance State Force Restart](./user-guide/instance/states/restart.md)
+  - [Instance Destroy](./user-guide/instance/destroy.md)
+  
 <!-- - [Monitoring & Metrics](./user-guide/monitoring-metrics.md) -->
 
 # Frequently Asked Questions
+- [FAQ](./faq/index.md)
 - [Why did my node go down?](./faq/node-down.md)
 - [How are disks formatted during installation?](./faq/install-disk-formatting.md)
 - [Why is Pextra CloudEnvironment® distributed as an ISO image?](./faq/iso-distribution.md)
