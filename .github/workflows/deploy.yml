@@ -28,10 +28,10 @@ jobs:
       - name: Install mdBook and plugins
         run: |
           echo "${HOME}/.cargo/bin" >> $GITHUB_PATH
-          command -v mdbook >/dev/null 2>&1 || cargo install mdbook
-          command -v mdbook-alerts >/dev/null 2>&1 || cargo install mdbook-alerts
-          command -v mdbook-linkcheck >/dev/null 2>&1 || cargo install mdbook-linkcheck
-          command -v mdbook-llms-txt-tools >/dev/null 2>&1 || cargo install mdbook-llms-txt-tools
+          command -v mdbook >/dev/null 2>&1 || cargo install mdbook --force
+          command -v mdbook-alerts >/dev/null 2>&1 || cargo install mdbook-alerts --force
+          command -v mdbook-linkcheck >/dev/null 2>&1 || cargo install mdbook-linkcheck --force
+          command -v mdbook-llms-txt-tools >/dev/null 2>&1 || cargo install mdbook-llms-txt-tools --force
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
