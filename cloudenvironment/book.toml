@@ -1,7 +1,6 @@
 [book]
 authors = ["Pextra Inc."]
 language = "en"
-multilingual = false
 src = "src"
 title = "Pextra Documentation"
 description = "User documentation for the Pextra CloudEnvironment® private cloud management platform."
@@ -11,7 +10,6 @@ default-theme = "rust"
 preferred-dark-theme = "navy"
 smart-punctuation = true
 git-repository-url = "https://github.com/PextraCloud/documentation/tree/master/cloudenvironment"
-git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/PextraCloud/documentation/edit/master/cloudenvironment/{path}"
 site-url = "/cloudenvironment/"
 
@@ -19,10 +17,6 @@ site-url = "/cloudenvironment/"
 enable = true
 level = 2
 
-[output.linkcheck]
-exclude = ['llms.txt', 'llms-full.txt']
-
-[preprocessor.alerts]
 [output.markdown]
 [output.llms-txt]
 [output.llms-txt-full]

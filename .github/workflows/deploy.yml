@@ -28,10 +28,8 @@ jobs:
       - name: Install mdBook and plugins
         run: |
           echo "${HOME}/.cargo/bin" >> $GITHUB_PATH
-          command -v mdbook >/dev/null 2>&1 || cargo install mdbook --force
-          command -v mdbook-alerts >/dev/null 2>&1 || cargo install mdbook-alerts --force
-          command -v mdbook-linkcheck >/dev/null 2>&1 || cargo install mdbook-linkcheck --force
-          command -v mdbook-llms-txt-tools >/dev/null 2>&1 || cargo install mdbook-llms-txt-tools --force
+          command -v mdbook >/dev/null 2>&1 || cargo install mdbook --no-default-features --features search --locked --force
+          command -v mdbook-llms-txt-tools >/dev/null 2>&1 || cargo install --git https://github.com/PextraCloud/mdbook-llms-txt-tools
 
       - name: Configure Pages
         uses: actions/configure-pages@v4

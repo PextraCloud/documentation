@@ -6,20 +6,12 @@ The latest build of the documentation is available [here](https://docs.pextra.cl
 
 ## Usage
 
-Documentation is built with [mdBook](https://github.com/rust-lang/mdBook).
+Documentation is built with [mdBook](https://github.com/rust-lang/mdBook). The minimum version is `0.5.0`.
 
 ### Prerequisites
 
 The following mdBook plugins must be installed:
-- `mdbook-alerts`
-- `mdbook-linkcheck`
-- `mdbook-llms-txt-tools`
-
-Each plugin can be installed with the following command:
-
-```bash
-cargo install <plugin-name>
-```
+- [`mdbook-llms-txt-tools`](https://github.com/PextraCloud/mdbook-llms-txt-tools)
 
 ### Development
 
