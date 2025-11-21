@@ -18,7 +18,7 @@ The following mdBook plugins must be installed:
 To serve the documentation locally, run `mdbook serve --open`.
 The default port is **3000**.
 
-After building, directories in the output directory (`book/`) are merged together by running [merge-dirs.pl](./merge-dirs.pl) (see [.github/workflows/deploy.yml](.github/workflows/deploy.yml) for details). This is necessary for the `llms.txt` files to be correctly placed in the root of the output directory, along with the markdown output for the aforementioned `llms.txt` files.
+After building, directories in the output directory (`book/`) are merged together by running [merge-dirs.pl](./merge-dirs.pl) (see [.github/workflows/deploy.yml](.github/workflows/deploy.yml) for details). This is necessary for the `llms.txt` files to be correctly placed in the root of the output directory, along with the markdown output for the aforementioned `llms.txt` files, and static files, such as `robots.txt`.
 
 ## License
 
