@@ -41,7 +41,7 @@ jobs:
 
       - name: Generate sitemap
         run: |
-          mdbook-utils sitemap -b https://docs.pextra.cloud -o cloudenvironment/book/html/sitemap.xml
+          mdbook-utils sitemap -m cloudenvironment/src -b https://docs.pextra.cloud -o cloudenvironment/book/html/sitemap.xml
 
       - name: Install Perl dependencies
         run: sudo apt install libfile-copy-recursive-perl
