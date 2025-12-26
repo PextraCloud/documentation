@@ -1,38 +1,46 @@
-# Repository Mirrors for Airgapped Environments
-In standard deployments, servers connects to the [Pextra repository](https://repo.pextra.cloud) to download updates. However, airgapped environments require special consideration for package management, as they lack direct internet access. This tutorial provides a guide to managing an offline repository mirror in airgapped environments using `aptly`. This approach ensures Pextra CloudEnvironment systems remain updatable and secure even in the most restrictive network environments.
+# Repository Mirrors for Air-Gapped Environments
+
+In standard deployments, servers connect to the **Pextra repository** to download updates. However, **air-gapped environments** require special consideration for package management, as they do not have direct internet access.
+
+This guide describes how to manage an **offline repository mirror** for Pextra Cloud Environment® using `aptly`. This approach ensures that systems remain **up to date, secure, and maintainable**, even in highly restricted network environments.
 
 ## Before You Begin
-**Hardware Requirements:**
-- Mirror server (online system with internet access) with sufficient storage space
-	- The Pextra repository is approximately 100MiB in size per architecture (`amd64` and `arm64`)
-- USB drive or removable media (for full airgap transfers only)
-- Network connectivity between mirror and offline servers (for restricted airgap only)
 
-**Software Requirements:**
-- Debian-based system with administrative privileges
+### Hardware Requirements
+- A **mirror server** (an online system with internet access) with sufficient storage capacity
+    - The Pextra repository is approximately **100 MiB per architecture** (`amd64` and `arm64`)
+- USB drive or other removable media (required for **full air-gap** environments)
+- Network connectivity between mirror and offline servers (required for **restricted air-gap** environments)
+
+### Software Requirements
+- Debian-based operating system
+- Administrative privileges (`sudo`)
 - `curl`, `tar`, and standard Unix utilities
-- Administrative (`sudo`) access
 
-**Estimated Setup Time:**
-- 30 minutes for restricted airgap
-- 1 hour for full airgap
+### Estimated Setup Time
+- **Restricted air-gap:** ~30 minutes
+- **Full air-gap:** ~1 hour
 
-## Understanding Airgap Types
-To set up Pextra CloudEnvironment® servers in an airgapped environment, it is essential to understand the two different types of airgaps:
+## Understanding Air-Gap Types
 
-### Restricted/One-way Airgap
-The offline server cannot directly access public internet but can communicate with an outside server through a controlled endpoint. This allows for automated synchronization while maintaining security boundaries.
+Before configuring repository mirrors, it is important to understand the two supported air-gap models for Pextra Cloud Environment® deployments.
 
-### Full Airgap
-Complete network isolation with no connectivity to external servers. Package updates require manual media transfer (e.g. with USB drives, portable storage).
+### Restricted (One-Way) Air-Gap
+
+In a restricted air-gap, offline servers cannot access the public internet directly but can communicate with a controlled external endpoint. This enables **automated or semi-automated synchronization** while maintaining strict security boundaries.
+
+### Full Air-Gap
+
+A full air-gap environment is **completely isolated** from external networks. All package updates must be transferred manually using removable media such as USB drives or portable storage devices.
 
 > [!NOTE]
-> A full airgap is the most secure option, but it requires **a considerable amount** of manual work to keep the offline servers updated. A restricted airgap allows for more automation and is recommended if possible.
+> A full air-gap provides the highest level of isolation but requires significantly more operational effort to maintain. Where possible, a restricted air-gap is recommended to reduce administrative overhead.
 
 ## Setup Instructions
-1. Set up the mirror server:
+
+1. Set up the repository mirror server:
     - [Mirror Setup](./mirror-setup.md)
 
-2. Follow the relevant setup instructions based on your airgap type:
-    - [Restricted Airgap Setup](./restricted-airgap.md)
-    - [Full Airgap Setup](./full-airgap.md)
+2. Follow the instructions specific to your air-gap deployment model:
+    - [Restricted Air-Gap Setup](./restricted-airgap.md)
+    - [Full Air-Gap Setup](./full-airgap.md)

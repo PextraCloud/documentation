@@ -1,19 +1,21 @@
 # Network Management
 
-Networking in Pextra CloudEnvironment® is configured at the **node (server) level**. Each node has physical NICs that can be virtualized to create virtual networks for your instances.
+Networking in Pextra Cloud Environment® is managed at the **node (server) level**. Each node includes **physical NICs** that can be virtualized to create **virtual networks** for your instances, providing flexibility and isolation in your deployment.
 
-To set up networking:
+## Accessing Node Networking
 
-1. Click on the node in the left navigation panel.
-2. On the right, select the **Network** tab.
+1. In the **left navigation panel**, click on the desired node.
+2. In the **right panel**, select the **Network** tab.
 
-   ![Node Networking Tab](./images/nw-general.png)
+![Node Networking Tab](./images/nw-general.png)
 
-From this tab, you can manage:
+## Manage Network Components
 
-- **vSwitches** – Create and configure virtual switches to connect virtual machines.
+From the Network tab, you can configure:
+
+- **vSwitches** – Create and manage virtual switches to connect virtual machines.
 - **Port Groups** – Define network segments and VLANs for instance traffic.
 - **NICs** – Assign physical NICs to virtual switches or manage virtual NICs.
 
 > [!TIP]
-> Plan your network layout carefully, including VLANs and port groups, before assigning NICs to virtual switches. This ensures proper isolation and connectivity between instances.
+> Plan your network topology, including VLANs and port groups, **before assigning NICs**. Proper planning ensures optimal connectivity, isolation, and performance across your instances.
