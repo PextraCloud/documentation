@@ -1,6 +1,6 @@
 # User Management
 
-This section provides an overview of **user management** in Pextra Cloud Environment®. It explains how administrators can create, modify, and manage **users**. Access to this module requires **administrative privileges**.
+This section provides an overview of **user management** in Pextra CloudEnvironment®. It explains how administrators can create, modify, and manage **users**. Access to this module requires **administrative privileges**.
 
 ## Accessing Users
 

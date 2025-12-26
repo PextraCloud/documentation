@@ -34,6 +34,7 @@
   - [View Licenses](./user-guide/licenses/view_licenses_cluster.md)
   - [Update a license on a node](./user-guide/licenses/Update_license_on_a_node.md)
   - [License Compliance](./user-guide/licenses/compliance_License_cluster.md) 
+  - [License Features Gate](./user-guide/licenses/License_feature_gate.md)
 - [Node Management](./user-guide/nodes/index.md)
   - [System Upgrade](./user-guide/nodes/system-upgrade.md)
   - [Set License Key](./user-guide/nodes/set-license-key.md)

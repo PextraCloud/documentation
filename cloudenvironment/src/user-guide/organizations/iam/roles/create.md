@@ -20,7 +20,7 @@ This section describes how to create a new role in Pextra Cloud Environment®.
 ![Edit Role Name](./images/role-create-3.png)
 
 6. Select one or more **policies** to associate with the role, then click **Next**.  
-   If the required policy does not exist, create it first by following the **Policy Management** guide.
+   If the required policy does not exist, create it first by following the [**Policy Management**](../policy/index.md) guide.
 
 ![Attach Policies](./images/role-create-4.png)
 
