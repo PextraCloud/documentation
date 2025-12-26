@@ -1,13 +1,24 @@
 # Identity and Access Management (IAM)
 
-The **Identity and Access Management (IAM)** module allows administrators to manage users and roles within an organization.
+The **Identity and Access Management (IAM)** module enables administrators to manage all aspects of access control within the organization, including:
 
-Users are managed **at the organization level**. Administrators can:
+- Users
+- Roles
+- Policies
+- Authentication providers
+- User authentication audit logs
 
-- Add users individually or import multiple users in bulk using a CSV file.
-- Manage access and permissions through **Role-Based Access Control (RBAC)**.
+> [!NOTE]
+> Access to IAM requires **administrative privileges** at the organization level.
 
 ## Accessing IAM
 
-1. In the **left navigation panel**, click your **organization name**.
-2. In the **right panel**, select **IAM** to open the user management view.
+To access the IAM module:
+
+1. In the left panel, select your **organization**.
+2. In the right panel, click the **IAM** tab.
+
+![Access IAM](./images/iam.png)
+
+> [!TIP]
+> Use IAM to enforce security policies, manage roles and permissions, and audit user activity across your organization.

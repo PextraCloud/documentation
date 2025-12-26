@@ -3,9 +3,11 @@
 To remove a user from the IAM interface:
 
 1. Locate the user in the **Users** list.
-2. Click the **delete icon** on the user’s row.
-3. The **Delete User** overlay will appear.
-4. Type the **confirmation word** in the input box.
-5. Click **Confirm** to delete the user.  
-   ![Create User dialog in IAM](../images/delete-user-1.png)
+2. Click the **delete icon** next to the user’s entry.
+3. In the **Delete User** overlay, type the required **confirmation word**.
+4. Click **Confirm** to complete the deletion.
 
+![Delete User dialog in IAM](images/delete-user-1.png)
+
+> [!TIP]
+> Ensure you have reviewed the user’s roles and permissions before deletion, as this action cannot be undone.
