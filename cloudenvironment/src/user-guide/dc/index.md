@@ -1,14 +1,13 @@
 # Datacenter Management
 
-The **Datacenter Management** section allows administrators to organize and manage clusters within logical groupings called **datacenters**. A datacenter provides a higher-level abstraction for grouping clusters—typically based on geography, purpose, or administrative domain.
+Datacenters represent logical groupings of clusters within an organization. They help structure resources and provide administrative boundaries for managing clusters and nodes.
+
+> [!NOTE]
+> The `MULTI_DATACENTER` feature flag (Enterprise edition or higher) must be enabled to create more than one datacenter per organization. See [Organization Licensing](../organizations/licensing.md) for details.
+
+Currently, datacenter creation is supported only via the API. This will be addressed in a future release.
 
 The ID prefix for datacenters is `dc-`[^1].
-
-> [!TIP]
-> A datacenter can contain multiple clusters. You can also specify a **geographical location** for each datacenter to help identify its physical or logical placement.
-
-> [!TIP]
-> Creating a **new datacenter** is currently supported **only via API**.
 
 ## Notes
 

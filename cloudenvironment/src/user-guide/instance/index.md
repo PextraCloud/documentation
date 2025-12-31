@@ -1,14 +1,9 @@
 # Instance Management
 
-The **Instance Management** section allows administrators to manage virtual instances in the platform. It includes deployment, control, and lifecycle actions.
+Instances represent virtualized compute resources (VMs or containers) that run workloads within nodes in a cluster. Pextra CloudEnvironment® supports the open-source KVM hypervisor for instance virtualization, and LXC for containerization.
+
 
 The ID prefix for instances is `inst-`[^2].
-
-> [!TIP]
-> You can perform these actions by **right-clicking** on the target node to deploy a new instance (VM or container). For management of existing instances, **right-click** on the instance itself.
-
-> [!TIP]
-> An instance must be in the **Stopped** state before it can be destroyed.
 
 ## Notes
 

@@ -4,10 +4,8 @@ The **Cluster Management** section allows administrators to manage cluster confi
 
 The ID prefix for clusters is `cls-`[^4].
 
-> [!TIP]
-> You can edit cluster details such as the **name** and **description** directly from the UI.  
-> Changes take effect immediately after confirmation.
-
+> [!NOTE]
+> Cluster licensing determines which organization-level features are enabled. Review [Organization Licensing](../organizations/licensing.md) for edition rules and gated capabilities.
 
 ---
 
