@@ -9,8 +9,8 @@ Pextra CloudEnvironment® uses a dynamic, attribute-based access control (ABAC) 
 
 ## Key Concepts
 - **Users** are created per organization. Refer to the [Users](./users/index.md) section for user management steps.
-- **Policies** define the actual permissions. Refer to the [Policies](./policies.md) section for statement structure and limits.
-- **Roles** are attached policies, and are assigned to users. Refer to the [Roles](./roles.md) section for creation, assignment, and deletion steps.
+- **Policies** define the actual permissions. Refer to the [Policies](./policies/index.md) section for statement structure and limits.
+- **Roles** are attached policies, and are assigned to users. Refer to the [Roles](./roles/index.md) section for creation, assignment, and deletion steps.
 
 >[!TIP]
 >Keep the root user as a break-glass account. Assign it a strong password and store it securely. Create separate admin users with roles that provide the necessary permissions for daily operations.
