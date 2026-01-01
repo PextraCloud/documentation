@@ -5,7 +5,7 @@ Identity and Access Management (IAM) controls who can interact with resources in
 Pextra CloudEnvironment® uses a dynamic, attribute-based access control (ABAC) model. Permissions are granted to users via roles, which are collections of policies. Policies define fine-grained permissions using statements that allow or deny specific actions on resources and environmental attributes.
 
 >[!NOTE]
->The `IAM_ABAC_RULES` feature flag must be enabled to create policies with ABAC rules. See the [Feature Gating](./licensing/feature-gating.md) section for details.
+>The `IAM_ABAC_RULES` feature flag must be enabled to create policies with ABAC rules. See the [Feature Gating](../licensing/feature-gating.md) section for details.
 
 ## Key Concepts
 - **Users** are created per organization. Refer to the [Users](./users/index.md) section for user management steps.
