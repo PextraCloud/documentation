@@ -15,4 +15,4 @@ Use the statement builder to define individual policy statements. Each statement
 - **Effect**: Choose either `allow` or `deny` to specify whether the statement grants or restricts access. `deny` statements take precedence over `allow` statements.
 - **Actions**: Select one or more actions that the statement applies to. Use the dropdown to search and select actions.
 - **Resources**: Specify the resources the statement applies to. You can use wildcards (`*`) for broader scopes.
-- **Conditions**: (Optional) Add ABAC rules to further refine when the statement applies. See the [ABAC Rules](../abac-rules.md) section for details.
+- **Conditions**: (Optional) Add ABAC rules to further refine when the statement applies. See the [ABAC Rules](./abac-rules.md) section for details.
