@@ -1,13 +1,7 @@
 # Cluster Management
-
-The **Cluster Management** section allows administrators to manage cluster configurations and metadata within Pextra Cloud. Each cluster represents a logical grouping of nodes, resources, and workloads.
+Clusters are logical groupings of nodes that work together to provide compute, storage, and networking resources for running instances and workloads. Pextra CloudEnvironment® supports the creation and management of clusters to facilitate resource allocation, scalability, and high availability.
 
 The ID prefix for clusters is `cls-`[^4].
-
-> [!NOTE]
-> Cluster licensing determines which organization-level features are enabled. Review [Organization Licensing](../organizations/licensing.md) for edition rules and gated capabilities.
-
----
 
 ## Notes
 

@@ -3,7 +3,7 @@
 Datacenters represent logical groupings of clusters within an organization. They help structure resources and provide administrative boundaries for managing clusters and nodes.
 
 > [!NOTE]
-> The `MULTI_DATACENTER` feature flag (Enterprise edition or higher) must be enabled to create more than one datacenter per organization. See [Organization Licensing](../organizations/licensing.md) for details.
+> The `MULTI_DATACENTER` feature flag must be enabled to create more than one datacenter per organization. See the [Feature Gating](../organizations/licensing/feature-gating.md) section for details.
 
 Currently, datacenter creation is supported only via the API. This will be addressed in a future release.
 
