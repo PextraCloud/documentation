@@ -9,4 +9,3 @@
 3. Modify the fields as described in the [Create Policy](./create.md) section.
 4. Review the summary and click **Finish** to save changes:
    ![Edit Policy Summary](./images/edit-policy-wizard-03.png)
-
