@@ -16,6 +16,5 @@ Administrators can create new users directly from the IAM interface.
 
 5. Click **Confirm** to create the user.
    ![Create User dialog in IAM](../images/create-user-2.png)
-6
-. The new user will appear in the users list:
+6. The new user will appear in the users list:
    ![User appears in IAM list](../images/create-user-3.png)

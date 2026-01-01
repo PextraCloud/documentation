@@ -2,7 +2,7 @@
 
 Policies define what actions can be performed within an organization. Each policy contains an ordered list of **statements** that the IAM engine evaluates during authorization.
 
-The ID prefix for policies is `iamrole-`[^1].
+The ID prefix for policies is `iampol-`[^1].
 
 ## Notes
 

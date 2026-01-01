@@ -60,6 +60,7 @@
     - [Delete Role](./user-guide/organizations/iam/roles/delete.md)
   - [Policies](./user-guide/organizations/iam/policies/index.md)
     - [Model](./user-guide/organizations/iam/policies/model.md)
+      - [ABAC Rules](./user-guide/organizations/iam/policies/abac-rules.md)
     - [Create Policy](./user-guide/organizations/iam/policies/create.md)
     - [Edit Policy](./user-guide/organizations/iam/policies/edit.md)
     - [Delete Policy](./user-guide/organizations/iam/policies/delete.md)
