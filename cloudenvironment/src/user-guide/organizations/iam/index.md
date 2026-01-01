@@ -1,13 +1,16 @@
 # Identity and Access Management (IAM)
 
-The **Identity and Access Management (IAM)** module allows administrators to manage users and roles within an organization.
+Identity and Access Management (IAM) controls who can interact with resources inside an organization. IAM is organization-scoped: every action you perform through this view is limited to the organization currently selected in the resource tree.
 
-Users are managed **at the organization level**. Administrators can:
+Pextra CloudEnvironment® uses a dynamic, attribute-based access control (ABAC) model. Permissions are granted to users via roles, which are collections of policies. Policies define fine-grained permissions using statements that allow or deny specific actions on resources and environmental attributes.
 
-- Add users individually or import multiple users in bulk using a CSV file.
-- Manage access and permissions through **Role-Based Access Control (RBAC)**.
+>[!NOTE]
+>The `IAM_ABAC_RULES` feature flag must be enabled to create policies with ABAC rules. See the [Feature Gating](../licensing/feature-gating.md) section for details.
 
-## Accessing IAM
+## Key Concepts
+- **Users** are created per organization. Refer to the [Users](./users/index.md) section for user management steps.
+- **Policies** define the actual permissions. Refer to the [Policies](./policies/index.md) section for statement structure and limits.
+- **Roles** are attached policies, and are assigned to users. Refer to the [Roles](./roles/index.md) section for creation, assignment, and deletion steps.
 
-1. In the **left navigation panel**, click your **organization name**.
-2. In the **right panel**, select **IAM** to open the user management view.
+>[!TIP]
+>Keep the root user as a break-glass account. Assign it a strong password and store it securely. Create separate admin users with roles that provide the necessary permissions for daily operations.
