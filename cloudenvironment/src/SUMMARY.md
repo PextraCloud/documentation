@@ -24,7 +24,9 @@
 
 - [Web Interface Overview](./user-guide/web-interface/index.md)
   - [Accessing the Web Interface](./user-guide/web-interface/accessing.md)
-  - [Logging In](./user-guide/web-interface/logging-in.md)
+  - [Logging In](./user-guide/web-interface/logging-in/index.md)
+    - [Discovery (Multi-Org Only)](./user-guide/web-interface/logging-in/organization-discovery.md)
+    - [Authentication](./user-guide/web-interface/logging-in/authentication.md)
     - [Web Interface Permissions](./user-guide/web-interface/logging-in/minimum-permissions.md)
   - [Resource Tree](./user-guide/web-interface/resource-tree.md)
   - [Tags](./user-guide/web-interface/tags/index.md)
