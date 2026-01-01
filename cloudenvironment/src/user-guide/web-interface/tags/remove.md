@@ -10,4 +10,4 @@ You can remove tags from each resource's detail page.
 3. The tag is immediately removed. The UI propagates the change to dropdowns and the resource tree.
 
 >[!IMPORTANT]
-> Tags with keys starting with `pce_` are reserved for system use. Attempting to remove a tag with this prefix will fail.
+> Tags with keys starting with `pce_` are reserved for system use. Attempting to create, edit, or delete a tag with this prefix will fail.
