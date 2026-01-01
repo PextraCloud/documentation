@@ -104,7 +104,7 @@
     - [Start](./user-guide/instance/states/start.md)
     - [Stop](./user-guide/instance/states/stop.md)
     - [Restart](./user-guide/instance/states/restart.md)
-    - [Kill](./user-guide/instance/states/fstop.md)
+    - [Force Stop](./user-guide/instance/states/fstop.md)
   - [Instance Destroy](./user-guide/instance/destroy.md)
 - [Monitoring & Metrics](./user-guide/monitoring-metrics/index.md)
     - [Cluster Level](./user-guide/monitoring-metrics/cluster.md)
