@@ -84,6 +84,7 @@
   - [Create Port Group](./user-guide/nw/ports.md)
   - [Edit Port Group](./user-guide/nw/portsedit.md)
   - [View NICs](./user-guide/nw/nic.md)
+  - [Node Addresses](./user-guide/nw/addresses/index.md)
   - [Node DNS](./user-guide/nw/dns.md)
 - [Storage Management](./user-guide/storage/index.md)
   - [Storage Pools](./user-guide/storage/pools/index.md)
