@@ -4,11 +4,17 @@ Stage changes to an existing address, including role assignments and gateway set
 > [!NOTE]
 > Updating a staged or existing address is pending until you [Apply Changes](./apply.md).
 
+> [!TIP]
+> To unstage removal of an existing address, edit the address and click **Finish** without making changes.
+
 ## Web Interface
 1. In **Managed addresses**, click the edit icon.
+    ![](./images/update.png)
+
 2. Update fields or role assignments.
+    ![](./images/update-dialog.png)
+
 3. Review the summary and click **Finish**.
+    ![](./images/update-summary.png)
 
-The **Stage Address Update** wizard uses the same fields as **Stage address**. For field details and screenshots, see [Create a New Address](./create.md).
-
-![Edit address action highlighted in the managed addresses table](../images/node-addresses-edit-action.png)
+For additional field details, see [Create a New Address](./create.md).

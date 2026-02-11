@@ -6,13 +6,15 @@ Stage a new address on the node and assign roles before applying changes.
 
 ## Web Interface
 1. Click **Stage address**.
-2. Enter an address and CIDR.
+    ![](./images/stage.png)
+
+2. Enter an address, CIDR, and optionally a gateway.
+    ![](./images/create-dialog-1.png)
+
 3. Select a physical NIC.
-4. (Optional) Enter a gateway and description.
-5. Select at least one role.
-6. (Optional) Enable **Set as default address**.
-7. Review the summary and click **Finish** to stage the change.
+    ![](./images/create-dialog-2.png)
 
-![Stage Node Address wizard showing address, CIDR, gateway, interface, and role selections](../images/node-addresses-stage-wizard.png)
+4. Optionally enter a description, and select at least one role. If the address will be the default for any role, enable **Set as default address**.
 
-![Stage Node Address summary step showing address details and selected roles](../images/node-addresses-stage-review.png)
+5. Review the summary and click **Finish** to stage the change.
+    ![](./images/create-dialog-3.png)

@@ -6,6 +6,7 @@ Discard all pending address changes on the node without applying them.
 
 ## Web Interface
 1. Click **Revert**.
-2. Confirm the discard.
+    ![](./images/revert.png)
 
-![Revert Pending Address Changes confirmation dialog](../images/node-addresses-revert-confirm.png)
+2. Confirm the discard.
+    ![](./images/revert-confirm.png)
