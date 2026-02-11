@@ -5,8 +5,9 @@ View managed and staged addresses for a node.
 > Pending changes are visible here, but are not applied until you [Apply Changes](./apply.md).
 
 ## Web Interface
-1. Click a node in the left navigation.
-2. Select the **Network** tab.
-3. Open **Addresses**.
+1. Select a node in the navigation tree.
 
-![Node Network tab with Addresses selected](../images/node-addresses-tab.png)
+2. Select the **Network** tab.
+
+3. Select the **Addresses** subtab. Both managed and staged addresses are listed.
+    ![](./images/list.png)
