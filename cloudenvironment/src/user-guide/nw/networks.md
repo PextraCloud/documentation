@@ -14,6 +14,7 @@ From this tab, you can manage:
 - **vSwitches** – Create and configure virtual switches to connect virtual machines.
 - **Port Groups** – Define network segments and VLANs for instance traffic.
 - **NICs** – Assign physical NICs to virtual switches or manage virtual NICs.
+- **Addresses** – Stage and apply node IP addresses for various traffic types.
 
 > [!TIP]
 > Plan your network layout carefully, including VLANs and port groups, before assigning NICs to virtual switches. This ensures proper isolation and connectivity between instances.
