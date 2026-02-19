@@ -84,6 +84,15 @@
   - [Create Port Group](./user-guide/nw/ports.md)
   - [Edit Port Group](./user-guide/nw/portsedit.md)
   - [View NICs](./user-guide/nw/nic.md)
+  - [Node Addresses](./user-guide/nw/addresses/index.md)
+    - [List Addresses](./user-guide/nw/addresses/list.md)
+    - [Stage a New Address](./user-guide/nw/addresses/create.md)
+    - [Update an Address](./user-guide/nw/addresses/update.md)
+    - [Delete an Address](./user-guide/nw/addresses/delete.md)
+    - [Convert Unmanaged Address](./user-guide/nw/addresses/convert.md)
+    - [Apply Changes](./user-guide/nw/addresses/apply.md)
+    - [Revert Changes](./user-guide/nw/addresses/revert.md)
+  - [Node DNS](./user-guide/nw/dns.md)
 - [Storage Management](./user-guide/storage/index.md)
   - [Storage Pools](./user-guide/storage/pools/index.md)
     - [List Storage Pools](./user-guide/storage/pools/list.md)
@@ -117,6 +126,7 @@
 - [How are disks formatted during installation?](./faq/install-disk-formatting.md)
 - [Why is Pextra CloudEnvironment® distributed as an ISO image?](./faq/iso-distribution.md)
 - [How do I change the IP address of a node?](./faq/change-node-ip-address.md)
+- [How do I change the DNS servers of a node?](./faq/change-node-dns-servers.md)
 
 # Issue Mitigation
 
