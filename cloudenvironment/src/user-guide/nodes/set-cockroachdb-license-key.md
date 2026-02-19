@@ -1,8 +1,11 @@
 # Set CockroachDB License Key
-Pextra CloudEnvironment®'s highly-scalable private cloud is built on CockroachDB's distributed architecture. One license per complete deployment (spanning all datacenters, clusters, and nodes) is required.
+Pextra CloudEnvironment®'s highly-scalable private cloud is built on CockroachDB's distributed architecture. The CockroachDB license key is cluster-wide (a cluster only needs one CockroachDB license key).
 
 > [!WARNING]
 > Pextra CloudEnvironment® will not be functional after one week (7 days) without a valid CockroachDB license key.
+
+> [!WARNING]
+> When a standalone node joins a cluster, it adopts the cluster's CockroachDB license setting. Any CockroachDB license key previously set on that node is discarded.
 
 > [!TIP]
 > CockroachDB license keys can be obtained from [cockroachlabs.cloud](https://cockroachlabs.cloud).
