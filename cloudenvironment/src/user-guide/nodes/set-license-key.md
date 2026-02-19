@@ -1,6 +1,9 @@
 # Set License Key
 License keys are long-lived and typically do not need to be changed. However, if you need to change the license key, you can do so by following these steps:
 
+> [!NOTE]
+> The Pextra CloudEnvironment® license key is separate from the CockroachDB license key. Both must be configured. For CockroachDB steps, refer to the [Set CockroachDB License Key](./set-cockroachdb-license-key.md) section.
+
 > [!TIP]
 > License keys can be purchased from the [Pextra Customer Portal](https://portal.pextra.cloud). Support subscriptions are also available for purchase.
 

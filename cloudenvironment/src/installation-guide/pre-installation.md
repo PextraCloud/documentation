@@ -9,7 +9,7 @@ Before installing Pextra CloudEnvironment®, ensure that you have completed all 
 
 ## Obtain License Keys
 1. Visit [portal.pextra.cloud](https://portal.pextra.cloud) to obtain a Pextra CloudEnvironment® license key (to get a free evaluation license, fill out the form [here](https://pextra.cloud/contact-us/#f)). One license per node is required. This license is required at installation time.
-2. Visit [cockroachlabs.cloud](https://cockroachlabs.cloud) to obtain a CockroachDB license key. One license per complete deployment (spanning all datacenters, clusters, and nodes) is required. This license is required after installation.
+2. Visit [cockroachlabs.cloud](https://cockroachlabs.cloud) to obtain a CockroachDB license key. One license per cluster is required. This license is required after installation.
 
 ## Prepare Installation Media
 1. Download the Pextra CloudEnvironment® ISO from the portal or the link provided in your license email.

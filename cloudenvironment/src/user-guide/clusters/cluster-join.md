@@ -5,6 +5,9 @@ Clustering allows you to group multiple nodes into a single **cluster**, enablin
 > [!TIP]
 > After installation, each node initially operates as a standalone cluster with one node. You can join additional nodes to an existing cluster using the join key.
 
+> [!WARNING]
+> When joining a cluster, standalone nodes carry over their Pextra CloudEnvironment® license key. However, the CockroachDB license key is discarded, and the node adopts the cluster's CockroachDB license setting. Refer to the [Set CockroachDB License Key](../nodes/set-cockroachdb-license-key.md) for more information.
+
 ## Creating and Joining a Cluster
 
 Follow these steps to join nodes into an existing cluster:
