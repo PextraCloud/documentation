@@ -8,8 +8,8 @@ Pextra CloudEnvironment® uses a dynamic, attribute-based access control (ABAC) 
 >The `IAM_ABAC_RULES` feature flag must be enabled to create policies with ABAC rules. See the [Feature Gating](../licensing/feature-gating.md) section for details.
 
 ## Key Concepts
-- **Users** are created per organization. Refer to the [Users](./users/index.md) section for user management steps.
-- **Policies** define the actual permissions. Refer to the [Policies](./policies/index.md) section for statement structure and limits.
+- **Users** are created per organization. You can manage single users or perform bulk import/export. Refer to the [Users](./users/index.md) section.
+- **Policies** define the actual permissions. You can manage individual policies or perform bulk import/export of custom policies. Refer to the [Policies](./policies/index.md) section.
 - **Roles** are attached policies, and are assigned to users. Refer to the [Roles](./roles/index.md) section for creation, assignment, and deletion steps.
 
 >[!TIP]
