@@ -7,6 +7,7 @@ Node addresses are configured at the node level and control which IPs Pextra Clo
 ## Limitations
 - As of `v2.3.0`, only one address per interface is supported (no dual-stack). This will be addressed in a future release.
 - You cannot assign a node address to a vSwitch uplink. This will result in connectivity loss after applying changes.
+- In a two-node cluster, changing an address assigned to the `cluster_internal` role is not supported. This triggers a race condition and results in a loss of quorum that requires manual intervention to restore. This limitation will be addressed in a future release.
 
 ## Forbidden Subnets
 Pextra CloudEnvironment® blocks node addresses in the following subnets:
