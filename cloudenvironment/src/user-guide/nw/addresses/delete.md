@@ -9,10 +9,10 @@ Stage the removal of a managed address from the node. The default address cannot
 
 ## Web Interface
 1. Click the trash icon next to the address under **Managed addresses**.
-    ![](./images/delete-btn.png)
+    ![Managed addresses list showing trash icon to delete an address](./images/delete-btn.png)
 
 2. Review the confirmation dialog and click **Finish** to stage the removal.
-    ![](./images/delete-confirm.png)
+    ![Delete address confirmation dialog with Finish button to stage removal](./images/delete-confirm.png)
 
 3. A badge "Staged for removal" will appear next to the address in the list.
-    ![](./images/delete-staged.png)
+    ![Managed addresses list showing address marked with Staged for removal badge](./images/delete-staged.png)
