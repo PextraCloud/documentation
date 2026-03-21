@@ -30,18 +30,18 @@ For each user, select one of the following credential modes:
 
 ## Web Interface
 1. Select the organization in the resource tree and view the page on the right. Click **IAM** in the right pane, then select **Users**. Click **Import Users**.
-   ![](./images/users-import-view.png)
+   ![Users import view](./images/users-import-view.png)
 
 2. Upload your users JSON file. Ensure it follows the supported shape and includes required fields.
-   ![](./images/users-import-upload.png)
+   ![Users import upload](./images/users-import-upload.png)
 
 3. Continue to **Summary**. You can exclude specific users from import, select credential modes per user, and perform bulk actions on selected rows.
-   ![](./images/users-import-summary.png)
+   ![Users import summary](./images/users-import-summary.png)
 
 4. Click **Finish** to begin import.
 
 5. If import succeeds with generated credentials, copy or download generated passwords before closing. For security reasons, these values are not retrievable after closing the modal.
-   ![](./images/users-import-success.png)
+   ![Users import success](./images/users-import-success.png)
 
 6. If import fails, review per-user errors:
-   ![](./images/users-import-errors.png)
+   ![Users import errors](./images/users-import-errors.png)
