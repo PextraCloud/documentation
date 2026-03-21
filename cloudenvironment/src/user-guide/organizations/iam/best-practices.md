@@ -17,6 +17,7 @@ Follow these guidelines to keep Identity and Access Management (IAM) secure, aud
 - **Limit Statement Count:** Keep policies under 25 statements when possible. Split large policies into topical units.
 - **Prefer Explicit Actions:** Avoid `*` unless the action set is genuinely broad. Explicit lists make audits faster.
 - **Test Before Production:** Validate new policies before attaching them to roles. Use a staging organization if available.
+- **Version Through Export:** Before major edits, create a baseline with [Export Policies](./policies/export.md).
 
 ## Role Management
 
@@ -39,7 +40,7 @@ Follow these guidelines to keep Identity and Access Management (IAM) secure, aud
 ## Change Management Checklist
 
 - [ ] Create or update a policy in staging first.
-- [ ] Capture an export or screenshot prior to editing roles/policies.
+- [ ] Capture a policy baseline with [Export Policies](./policies/export.md) prior to editing roles/policies.
 - [ ] Communicate the change to impacted teams (email, chat, ticket comment).
 - [ ] Apply the change in production during a maintenance window if it affects many users.
 - [ ] Monitor audit logs for at least one hour after the change.
