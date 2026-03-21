@@ -18,10 +18,10 @@ Each policy item should include:
 Each `policy` item should be a policy statement, as defined in the [Model](./model.md) section.
 
 >[!TIP]
->For an example source file, [Export Policies](./export.md) to generate a file with correct shape, then modify as needed for import.
+>For an example source file, see [Export Policies](./export.md) to generate a file with correct shape, then modify as needed for import.
 
 >[!IMPORTANT]
->The import will fail if any policy in the file includes ABAC rules and the `IAM_ABAC_RULES` feature flag is not enabled. Review the 
+>The import will fail if any policy in the file includes ABAC rules and the `IAM_ABAC_RULES` feature flag is not enabled. See the [Feature Gating](../../licensing/feature-gating.md) section for details.
 
 ## Web Interface
 1. Select the organization in the resource tree and view the page on the right. Click **IAM** in the right pane, then select **Policies**. Click **Import Policies**.
