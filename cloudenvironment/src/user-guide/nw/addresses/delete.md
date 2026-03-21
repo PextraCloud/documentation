@@ -2,7 +2,7 @@
 Stage the removal of a managed address from the node. The default address cannot be removed.
 
 > [!NOTE]
-> Deleting a staged address cannot be undone. To undo deletion of an existing address, open **Stage Address Update** and click **Finish** to unstage removal.
+> Deleting a staged address becomes permanent once the staged changes are applied and cannot be undone. Until then, you can undo the staged removal of a managed address by opening **Stage Address Update** for that address and clicking **Finish** to unstage the removal.
 
 > [!NOTE]
 > Staged removals are pending until you [Apply Changes](./apply.md).
