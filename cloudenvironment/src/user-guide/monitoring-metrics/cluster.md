@@ -2,7 +2,7 @@
 
 Cluster-level metrics provide a comprehensive overview of the entire cluster’s health, performance, and resource usage.
 
-> [!Tip]
+> [!TIP]
 > To view cluster metrics, click on the **cluster** in the left navigation panel. The metrics for the selected cluster will appear on the right-hand panel.
 
 The following metrics are available at the cluster level:

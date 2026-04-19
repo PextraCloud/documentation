@@ -2,7 +2,7 @@
 
 Node-level metrics provide detailed insights to help identify performance or health issues on individual nodes.
 
-> [!Tip] 
+> [!TIP]
 > To view node health metrics, click on the **node** in the left navigation panel. The metrics for that node will appear on the right-hand panel.  
 
 ![Node Health Overview](images/metrics-node-view-all.png)
