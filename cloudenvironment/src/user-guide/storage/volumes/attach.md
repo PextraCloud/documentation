@@ -4,7 +4,7 @@ You can attach a storage volume to an existing instance to expand its storage or
 
 ### Steps to Attach a Volume
 
-1. In the **left navigation panel**, click on the **instance** you want to attach the volume to.
+1. In the **left navigation panel**, click the **instance** you want to attach the volume to.
 
    ![Storage Page](./images/attach-device-instance.png)
 
@@ -17,7 +17,6 @@ You can attach a storage volume to an existing instance to expand its storage or
     - **Device Path:** Enter the path for the device (for example, `/dev/sdb` or `/dev/sdc`).
     - **Bus Type:** Select a bus type (e.g., `virtio`).
 5. Click **Confirm**.
-
 
 Once confirmed, the volume is attached to the instance and available for use.  
 

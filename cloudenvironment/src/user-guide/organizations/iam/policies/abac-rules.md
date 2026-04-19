@@ -2,7 +2,7 @@
 > [!NOTE]
 > The `IAM_ABAC_RULES` feature flag must be enabled to create policies with ABAC rules. See the [Feature Gating](../../licensing/feature-gating.md) section for details.
 
-When creating policy statements, you can define Attribute-Based Access Control (ABAC) rules in order to further refine when the statement applies. Define conditions using simple expressions with comparison and logical operators. Check the endpoint API documentation to see which resource attributes are available.
+When creating policy statements, you can define Attribute-Based Access Control (ABAC) rules to further refine when the statement applies. Define conditions using simple expressions with comparison and logical operators. Check the endpoint API documentation to see which resource attributes are available.
 
 ## Base Schema
 The following attributes are always available for use in ABAC rules:
