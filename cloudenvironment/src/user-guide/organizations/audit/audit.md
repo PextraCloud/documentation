@@ -7,5 +7,5 @@ To view audit logs:
 
 ![Audit Trail](./images/audit-logs.png)
 
->[!NOTE]
->Audit log entries may take up to one minute to appear after an action is performed.
+> [!NOTE]
+> Audit log entries may take up to one minute to appear after an action is performed.

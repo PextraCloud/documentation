@@ -1,4 +1,4 @@
-## Node-Level Monitoring
+# Node-Level Monitoring
 
 Node-level metrics provide detailed insights to help identify performance or health issues on individual nodes.
 

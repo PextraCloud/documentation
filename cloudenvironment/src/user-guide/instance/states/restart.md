@@ -1,4 +1,4 @@
-## Restarting an Instance
+# Restarting an Instance
 
 To reboot an instance:
 

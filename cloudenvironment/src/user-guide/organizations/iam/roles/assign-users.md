@@ -1,6 +1,6 @@
 # Assign Users to a Role
->[!IMPORTANT]
->Role assignment triggers an organization policy update. Changes take effect immediately and may impact user access.
+> [!IMPORTANT]
+> Role assignment triggers an organization policy update. Changes take effect immediately and may impact user access.
 
 1. Select the organization in the resource tree and view the page on the right. Click on the **IAM** tab in the right pane. Then, select the **Roles** sub-tab:
    ![IAM Roles Page](./images/iam-roles-page.png)
@@ -13,5 +13,5 @@
     ![Assign Users Search](./images/assign-users-search.png)
 6. To save changes, click **Finish**. The role's user assignments are updated accordingly.
 
->[!NOTE]
->The root user is excluded from role assignments, as it has unrestricted access.
+> [!NOTE]
+> The root user is excluded from role assignments, as it has unrestricted access.

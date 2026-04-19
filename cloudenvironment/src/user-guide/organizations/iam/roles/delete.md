@@ -1,6 +1,6 @@
 # Delete Role
->[!IMPORTANT]
->Role deletion triggers an organization policy update. Changes take effect immediately and may impact user access.
+> [!IMPORTANT]
+> Role deletion triggers an organization policy update. Changes take effect immediately and may impact user access.
 
 1. Select the organization in the resource tree and view the page on the right. Click on the **IAM** tab in the right pane. Then, select the **Roles** sub-tab:
    ![IAM Roles Page](./images/iam-roles-page.png)

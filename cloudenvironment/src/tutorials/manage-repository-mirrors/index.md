@@ -1,5 +1,5 @@
 # Repository Mirrors for Airgapped Environments
-In standard deployments, servers connects to the [Pextra repository](https://repo.pextra.cloud) to download updates. However, airgapped environments require special consideration for package management, as they lack direct internet access. This tutorial provides a guide to managing an offline repository mirror in airgapped environments using `aptly`. This approach ensures Pextra CloudEnvironment systems remain updatable and secure even in the most restrictive network environments.
+In standard deployments, servers connect to the [Pextra repository](https://repo.pextra.cloud) to download updates. However, airgapped environments require special consideration for package management, as they lack direct internet access. This tutorial provides a guide to managing an offline repository mirror in airgapped environments using `aptly`. This approach ensures Pextra CloudEnvironment systems remain updatable and secure even in the most restrictive network environments.
 
 ## Before You Begin
 **Hardware Requirements:**

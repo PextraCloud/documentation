@@ -1,4 +1,4 @@
-## Starting a Stopped Instance
+# Starting a Stopped Instance
 
 To bring a stopped instance back online:
 

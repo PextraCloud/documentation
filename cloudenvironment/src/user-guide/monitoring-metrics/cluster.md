@@ -1,4 +1,4 @@
-## Cluster-Level Monitoring
+# Cluster-Level Monitoring
 
 Cluster-level metrics provide a comprehensive overview of the entire cluster’s health, performance, and resource usage.
 

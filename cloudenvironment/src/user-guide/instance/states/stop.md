@@ -1,4 +1,4 @@
-## Stopping an Instance
+# Stopping an Instance
 
 To gracefully stop a running instance:
 

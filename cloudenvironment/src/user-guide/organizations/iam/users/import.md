@@ -1,8 +1,8 @@
 # Import Users
 Use user import to bulk-create users in the selected organization from a JSON file.
 
->[!NOTE]
->Importing users requires the `user.import` permission.
+> [!NOTE]
+> Importing users requires the `user.import` permission.
 
 ## Supported File Format
 The import file must be in JSON format, structured as either:
@@ -19,8 +19,8 @@ Each user item can include:
 - `random_password` (optional)
 - `temporary` (optional)
 
->[!TIP]
->For an example source file, see [Export Users](./export.md) to generate a file with correct shape, then modify as needed for import. Exported user data does not include credentials.
+> [!TIP]
+> For an example source file, see [Export Users](./export.md) to generate a file with correct shape, then modify as needed for import. Exported user data does not include credentials.
 
 ## Credential Modes
 For each user, select one of the following credential modes:

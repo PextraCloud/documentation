@@ -1,4 +1,4 @@
-## Editing a Port Group
+# Editing a Port Group
 
 To modify an existing port group:
 

@@ -1,4 +1,4 @@
-## Detaching a Volume from an Instance
+# Detaching a Volume from an Instance
 
 
 ### Steps to Detach a Volume

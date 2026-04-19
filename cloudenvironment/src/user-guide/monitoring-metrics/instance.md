@@ -1,4 +1,4 @@
-## 3. Instance-Level Monitoring
+# Instance-Level Monitoring
 
 Instance-level metrics provide detailed insights into each deployed virtual machine or container.
 
