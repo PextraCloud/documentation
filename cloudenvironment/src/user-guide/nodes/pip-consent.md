@@ -14,5 +14,5 @@ The Product Improvement Program (PIP) helps us improve our products by sharing r
 3. A modal will appear with a list of all nodes, their respective clusters, and their current PIP consent status. You can change the consent status for each node by selecting the desired option in the node's row. To change the consent status for all nodes at once, use the **Opt All In** or **Opt All Out** buttons at the top of the modal.
    ![Edit PIP Consent Modal](./images/03-pip-consent-modal.png)
 
-5. Click the **Finish** button to save your changes and close the modal. Changes may take a few minutes to propagate to each node.
+4. Click the **Finish** button to save your changes and close the modal. Changes may take a few minutes to propagate to each node.
    ![Finish Button](./images/04-pip-edit-modal-finish-button.png)
