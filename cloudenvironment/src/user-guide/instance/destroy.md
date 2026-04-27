@@ -1,4 +1,4 @@
-## Destroying an Instance
+# Destroying an Instance
 
 To permanently destroy an instance, it must first be in the **Stopped** state:
 

@@ -4,8 +4,8 @@
     - For built-in username/password, enter the username and password (the default username is `pceadmin`, and the password is set during installation). 
 2. If successful, you are redirected to the main dashboard[^1].
 
->[!NOTE]
->Too many incorrect login attempts in a short period will temporarily lock your account. Contact an administrator to unlock it.
+> [!NOTE]
+> Too many incorrect login attempts in a short period will temporarily lock your account. Contact an administrator to unlock it.
 
 ## Notes
 

@@ -13,7 +13,7 @@ To select an organization:
 In the case that the default organization is renamed or deleted, the login page displays an error and prompts you to select a different organization:
   ![Organization Not Found](./images/no-default-found.png)
 
->[!TIP]
->Keep a short list of approved organization IDs (`org-...`) for multi-tenant deployments.
+> [!TIP]
+> Keep a short list of approved organization IDs (`org-...`) for multi-tenant deployments.
 
 You can now [proceed to authentication](./authentication.md).

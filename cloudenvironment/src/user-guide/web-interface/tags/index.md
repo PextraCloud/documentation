@@ -13,5 +13,5 @@ Currently, the following resource types support tags:
 - Nodes
 - Instances
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > Tags with keys starting with `pce_` are reserved for system use. Attempting to create, edit, or delete a tag with this prefix will fail.

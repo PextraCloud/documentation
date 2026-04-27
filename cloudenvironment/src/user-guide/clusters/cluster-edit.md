@@ -1,4 +1,4 @@
-## Editing a Cluster
+# Editing a Cluster
 
 To update a cluster’s name or description:
 

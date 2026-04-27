@@ -1,6 +1,6 @@
 # Delete Policy
->[!IMPORTANT]
->Policy deletion triggers an organization policy update. Changes take effect immediately and may impact user access.
+> [!IMPORTANT]
+> Policy deletion triggers an organization policy update. Changes take effect immediately and may impact user access.
 
 1. Select the organization in the resource tree and view the page on the right. Click on the **IAM** tab in the right pane. Then, select the **Policies** sub-tab:
     ![IAM Policies Page](./images/iam-policies-page.png)

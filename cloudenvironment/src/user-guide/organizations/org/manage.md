@@ -1,4 +1,4 @@
-## Editing an Organization
+# Editing an Organization
 
 You can update an organization’s **name** or **description** from the UI:
 

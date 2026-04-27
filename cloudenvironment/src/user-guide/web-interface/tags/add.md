@@ -1,8 +1,8 @@
 # Add a Tag
 You can assign tags from each resource's detail page.
 
->[!NOTE]
->You must have the `tag.create` permission on the resource in order to add tags.
+> [!NOTE]
+> You must have the `tag.create` permission on the resource in order to add tags.
 
 1. Click **Add Tag** on the resource page.
   ![Add Tag Button](./images/tag-add-0.png)
@@ -13,5 +13,5 @@ You can assign tags from each resource's detail page.
 5. Confirm the new tag appears before the **Add Tag** button. The UI immediately propagates the change to dropdowns and the resource tree.
   ![Tag Added](./images/tag-add-2.png)
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > Tags with keys starting with `pce_` are reserved for system use. Attempting to create, edit, or delete a tag with this prefix will fail.

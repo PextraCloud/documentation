@@ -1,4 +1,4 @@
-## Force Stopping an Instance
+# Force Stopping an Instance
 
 If an instance does not respond to a normal stop:
 

@@ -1,4 +1,4 @@
-## Creating a vSwitch
+# Creating a vSwitch
 
 A **vSwitch (virtual switch)** connects virtual machines and network interfaces within a node. Each vSwitch acts as a bridge between virtual and physical networks.
 

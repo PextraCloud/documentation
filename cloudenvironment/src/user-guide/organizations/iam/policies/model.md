@@ -10,7 +10,7 @@ Each statement contains the following fields:
 | **Resource** | Resource identifiers (such as `org-*`, `cls-*`) or `*` for all resources. |
 | **Rules** | A string expression that refines the scope of the statement using ABAC conditions. Requires the `IAM_ABAC_RULES` feature flag. |
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > The root user bypasses all policy evaluations and is not subject to these rules. Use the root account only for emergency access and critical operations.
 
 ## Evaluation Order

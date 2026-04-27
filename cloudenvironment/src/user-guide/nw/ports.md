@@ -1,4 +1,4 @@
-## Creating and Managing Port Groups
+# Creating and Managing Port Groups
 
 Port groups define how virtual machines connect to a vSwitch and access the physical network.  
 Each port group is associated with a specific vSwitch and can include custom network configurations.

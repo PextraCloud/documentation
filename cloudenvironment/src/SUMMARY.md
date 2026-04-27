@@ -38,6 +38,7 @@
     - [AI Assist](./user-guide/web-interface/ai-features/ai-assist.md)
 - [Node Management](./user-guide/nodes/index.md)
   - [System Upgrade](./user-guide/nodes/system-upgrade.md)
+  - [Product Improvement Program (PIP)](./user-guide/nodes/pip-consent.md)
   - [Set License Key](./user-guide/nodes/set-license-key.md)
   - [Set CockroachDB License Key](./user-guide/nodes/set-cockroachdb-license-key.md)
 - [Cluster Management](./user-guide/clusters/index.md)

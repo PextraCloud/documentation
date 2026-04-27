@@ -1,4 +1,4 @@
-## Editing a Datacenter
+# Editing a Datacenter
 
 You can update a datacenter’s **name**, **description**, or **location** directly from the UI:
 

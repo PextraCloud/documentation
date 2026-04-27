@@ -1,4 +1,4 @@
-## Editing a vSwitch to Add Uplinks
+# Editing a vSwitch to Add Uplinks
 
 You can add one or more **uplinks** to a vSwitch to connect it to physical network interfaces on a node. Adding multiple uplinks improves **redundancy** and **fault tolerance**, ensuring higher network availability.
 

@@ -1,11 +1,11 @@
 # Export Users
 Use user export to download organization users as JSON for migration, review, or backup workflows.
 
->[!NOTE]
->Exporting users requires the `user.export` permission.
+> [!NOTE]
+> Exporting users requires the `user.export` permission.
 
->[!IMPORTANT]
->Exported user data does not include credentials (passwords, password hashes, MFA secrets, or session data).
+> [!IMPORTANT]
+> Exported user data does not include credentials (passwords, password hashes, MFA secrets, or session data).
 
 ## Web Interface
 1. Select the organization in the resource tree and view the page on the right. Click **IAM** in the right pane, then select **Users**. Click **Export Users**.
