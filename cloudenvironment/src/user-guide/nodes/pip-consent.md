@@ -4,7 +4,7 @@ The Product Improvement Program (PIP) helps us improve our products by sharing r
 > [!NOTE]
 > The PIP was introduced in v2.6.0. Upgrading from a version prior to v2.6.0 will result in a warning banner in the Web Interface until a consent decision is made for each node. By default, nodes with no consent decision are opted out.
 
-> ![NOTE]
+> [!NOTE]
 > You must have the `node.bulk_update_telemetry_consent` permission in order to edit PIP consent for nodes.
 
 ## Web Interface
