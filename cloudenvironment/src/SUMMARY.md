@@ -120,6 +120,8 @@
     - [Restart](./user-guide/instance/states/restart.md)
     - [Force Stop](./user-guide/instance/states/fstop.md)
   - [Instance Destroy](./user-guide/instance/destroy.md)
+  - [Attaching Devices](./user-guide/instance/attach.md)
+    - [USB Device](./user-guide/instance/attaching/usb.md)
 - [Monitoring & Metrics](./user-guide/monitoring-metrics/index.md)
     - [Cluster Level](./user-guide/monitoring-metrics/cluster.md)
     - [Node Level](./user-guide/monitoring-metrics/node.md)
