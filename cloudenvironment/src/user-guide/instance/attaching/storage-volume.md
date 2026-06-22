@@ -22,9 +22,20 @@ Attach a storage volume to an instance through the Pextra CloudEnvironment® web
 
    ![Read Only Option](../images/instance-attaching-storage-5.png)
 
-6. Enter a **Device path** for the volume and select a **Bus** type. Go to [!NOTE] for more infomation on the different **Bus** types.
+6. Enter a **Device path** for the volume and select a **Bus** type. 
 
    ![Device Path and Bus Selection](../images/instance-attaching-storage-6.png)
+
+>[!NOTE]
+>The device path must be unique within the instance and must not conflict with any existing attached storage devices.
+
+>Common bus types include:
+
+>| Bus Type | Description |
+>|-----------|-----------|
+>| **virtio** | Recommended for most Linux guests and provides the best performance. |
+>| **sata** | Provides broad compatibility with guest operating systems. |
+>| **scsi** | Commonly used for advanced storage configurations and enterprise workloads. |
 
 7. Optionally enable **Hot-plug** to attach the storage volume to a running instance. If Hot-plug is not enabled, the instance must be stopped before attaching the volume.
 
@@ -34,13 +45,3 @@ Attach a storage volume to an instance through the Pextra CloudEnvironment® web
 
    ![Confirm Storage Volume Attachment](../images/instance-attaching-storage-8.png)
 
-[!NOTE]
-The device path must be unique within the instance and must not conflict with any existing attached storage devices.
-
-Common bus types include:
-
-| Bus Type | Description |
-|-----------|-----------|
-| **virtio** | Recommended for most Linux guests and provides the best performance. |
-| **sata** | Provides broad compatibility with guest operating systems. |
-| **scsi** | Commonly used for advanced storage configurations and enterprise workloads. |

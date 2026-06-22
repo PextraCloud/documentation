@@ -123,6 +123,7 @@
   - [Attaching Devices](./user-guide/instance/attach.md)
     - [USB Device](./user-guide/instance/attaching/usb.md)
     - [Storage Volume](./user-guide/instance/attaching/storage-volume.md)
+    - [CDROM Drive](./user-guide/instance/attaching/CDROM-drive.md)
 - [Monitoring & Metrics](./user-guide/monitoring-metrics/index.md)
     - [Cluster Level](./user-guide/monitoring-metrics/cluster.md)
     - [Node Level](./user-guide/monitoring-metrics/node.md)
