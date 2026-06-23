@@ -4,7 +4,7 @@ In standard deployments, servers connect to the [Pextra repository](https://repo
 ## Before You Begin
 **Hardware Requirements:**
 - Mirror server (online system with internet access) with sufficient storage space
-	- The Pextra repository is approximately 100MiB in size per architecture (`amd64` and `arm64`)
+	- The Pextra repository is approximately 200MiB in size per architecture (`amd64` and `arm64`)
 - USB drive or removable media (for full airgap transfers only)
 - Network connectivity between mirror and offline servers (for restricted airgap only)
 
