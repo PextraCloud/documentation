@@ -132,7 +132,6 @@
     - [Instance Level](./user-guide/monitoring-metrics/instance.md)
 
 # Frequently Asked Questions
-- [FAQ](./faq/index.md)
 - [Why did my node go down?](./faq/node-down.md)
 - [How are disks formatted during installation?](./faq/install-disk-formatting.md)
 - [Why is Pextra CloudEnvironment® distributed as an ISO image?](./faq/iso-distribution.md)
