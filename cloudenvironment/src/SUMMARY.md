@@ -125,6 +125,7 @@
     - [Storage Volume](./user-guide/instance/attaching/storage-volume.md)
     - [CDROM Drive](./user-guide/instance/attaching/CDROM-drive.md)
     - [RNG Device](./user-guide/instance/attaching/rng-device.md)
+    - [Trusted Platform Module (TPM)](./user-guide/instance/attaching/tpm.md)
 - [Monitoring & Metrics](./user-guide/monitoring-metrics/index.md)
     - [Cluster Level](./user-guide/monitoring-metrics/cluster.md)
     - [Node Level](./user-guide/monitoring-metrics/node.md)
