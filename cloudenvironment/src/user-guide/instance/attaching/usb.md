@@ -19,16 +19,14 @@ Attach a USB device to an instance through the Pextra CloudEnvironment® web int
    ![USB Device Selection](../images/instance-attaching-usb-4.png)
 
 5. Choose a **Startup policy** for the USB device. Depending on the selected policy, the instance may fail to start if the USB device is unavailable. 
+   | Policy | Description |
+   |----------|----------|
+   | **mandatory** | The USB device must be available for the instance to start. If the device is unavailable, startup will fail. |
+   | **requisite** | Same as `mandatory`, but not required when migrating the instance to another node. |
+   | **optional** | The USB device is not required for the instance to start. If the device is unavailable, startup will succeed, but the device will not be available to the instance. |
 
    ![Startup Policy Selection](../images/instance-attaching-usb-5.png)
 
->[!NOTE]
->Startup policies determine how the instance behaves when the USB device is unavailable:
->| Policy | Description |
->|----------|----------|
->| **mandatory** | The USB device must be available for the instance to start. If the device is unavailable, startup will fail. |
->| **requisite** | The USB device is required during normal operation, but the requirement may be relaxed during migration. |
->| **optional** | The instance can start even if the USB device is unavailable. |
 
 6. Optionally enable **Hot-plug** to attach the USB device to a running instance. If Hot-plug is not enabled, the instance must be stopped before attaching the device. Attempting to attach the device while the instance is running will fail.
 
