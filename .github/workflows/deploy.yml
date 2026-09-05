@@ -31,6 +31,7 @@ jobs:
           command -v mdbook >/dev/null 2>&1 || cargo install mdbook --no-default-features --features search --locked --force
           command -v mdbook-llms-txt-tools >/dev/null 2>&1 || cargo install --git https://github.com/PextraCloud/mdbook-llms-txt-tools --force
           command -v mdbook-utils >/dev/null 2>&1 || cargo install mdbook-utils --force
+          command -v mdbook-external-links2 >/dev/null 2>&1 || cargo install mdbook-external-links2 --force
 
       - name: Configure Pages
         uses: actions/configure-pages@v4
