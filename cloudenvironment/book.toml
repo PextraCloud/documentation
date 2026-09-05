@@ -22,3 +22,7 @@ level = 2
 [output.markdown]
 [output.llms-txt]
 [output.llms-txt-full]
+
+[output.linkcheck2]
+warning-policy = "ignore"
+exclude = ['llms\.txt', 'llms-full\.txt']
