@@ -12,6 +12,9 @@ Documentation is built with [mdBook](https://github.com/rust-lang/mdBook). The m
 
 The following mdBook plugins must be installed:
 - [`mdbook-llms-txt-tools`](https://github.com/PextraCloud/mdbook-llms-txt-tools)
+- [`mdbook-utils`](https://github.com/john-cd/mdbook-utils)
+- [`mdbook-linkcheck2`](https://github.com/marxin/mdbook-linkcheck2)
+- [`mdbook-external-links2`](https://github.com/avivace/mdbook-external-links)
 
 ### Development
 
