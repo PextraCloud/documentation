@@ -157,6 +157,12 @@
   - [Mirror Setup](./tutorials/manage-repository-mirrors/mirror-setup.md)
   - [Restricted Airgap Setup](./tutorials/manage-repository-mirrors/restricted-airgap.md)
   - [Full Airgap Setup](./tutorials/manage-repository-mirrors/full-airgap.md)
+- [Deploy a Kubernetes Cluster on Talos Linux](./tutorials/deploy-k8s-talos/index.md)
+  - [Download and Deploy Talos ISO](./tutorials/deploy-k8s-talos/deploy-iso.md)
+  - [Prepare Talos Node](./tutorials/deploy-k8s-talos/prepare-node.md)
+  - [Generate and Apply Cluster Configuration](./tutorials/deploy-k8s-talos/generate-config.md)
+  - [Bootstrap Cluster and Set Up `kubectl`](./tutorials/deploy-k8s-talos/bootstrap.md)
+  - [Deploy Test Workload](./tutorials/deploy-k8s-talos/deploy-test-workload.md)
 
 # Feedback & Contributions
 
