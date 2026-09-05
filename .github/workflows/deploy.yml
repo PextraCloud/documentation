@@ -20,7 +20,7 @@ jobs:
 
       - name: Optimize images
         run: |
-          bun run optimize-images.ts || true
+          bun run scripts/optimize-images.ts || true
 
       - name: Check for changes
         id: has_changes

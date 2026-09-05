@@ -15,7 +15,7 @@ const SVG_EXTENSIONS: Array<ImageExtension> = ['svg'];
 const GLOB_TEMPLATE = `/**/*.{${IMAGE_EXTENSIONS.join(',')}}`;
 
 const IMAGE_DIRS: Array<string> = [
-    '../cloudenvironment/src',
+    './cloudenvironment/src',
 ];
 
 type ResultFile = {
