@@ -7,3 +7,4 @@ The following feature flags currently require the **Enterprise** edition (or hig
 | `MULTI_TENANCY` | Allows creating multiple organizations (tenants) inside a single deployment. |
 | `MULTI_DATACENTER` | Enables multiple datacenters per organization. |
 | `MULTI_CLUSTER` | Enables multiple clusters inside a single datacenter. |
+| `API_KEYS` | Enables creation and management of API keys for programmatic access. |
