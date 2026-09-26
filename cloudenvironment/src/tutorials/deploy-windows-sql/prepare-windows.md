@@ -5,7 +5,7 @@
 
    ![Microsoft Evaluation Center Windows Server 2025 landing page with ISO download link](./images/prepare-windows1.png)
 
-4. Upload the ISO to Pextra CloudEnvironment®.
+2. Upload the ISO to Pextra CloudEnvironment®.
 
 ## Deploy the Windows Server 2025 ISO
 >[!WARNING]
