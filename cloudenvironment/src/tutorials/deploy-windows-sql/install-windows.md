@@ -28,7 +28,7 @@ This step installs Windows Server 2025 from the attached ISO CD-ROM into the ins
 
    ![Clicking the Ctrl-Alt-Del button in the console](./images/install-windows5.png)
 
-6. Once prompted, set the password for the Administrator account when prompted.
+When prompted, set the password for the Administrator account.
 
    ![Prompting to set the password for the Administrator account](./images/install-windows6.png)
 
