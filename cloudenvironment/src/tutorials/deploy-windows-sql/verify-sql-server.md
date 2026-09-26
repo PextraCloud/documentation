@@ -15,4 +15,4 @@
 
   ![Command Prompt window showing the SELECT query result with the SQL Server version and current date/time returned by sqlcmd](./images/verify-sql2.png)
 
-Congratulations! You have a running Windows Server 2025 instance with SQL Server 2025 installed on Pextra CloudEnvironment®. You can now connect to the database engine from your workstation with any SQL client.
+Congratulations! You have a running Windows Server 2025 instance with a verified SQL Server 2025 installed on Pextra CloudEnvironment®.
