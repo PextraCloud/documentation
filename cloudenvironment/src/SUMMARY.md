@@ -163,6 +163,11 @@
   - [Generate and Apply Cluster Configuration](./tutorials/deploy-k8s-talos/generate-config.md)
   - [Bootstrap Cluster and Set Up `kubectl`](./tutorials/deploy-k8s-talos/bootstrap.md)
   - [Deploy Test Workload](./tutorials/deploy-k8s-talos/deploy-test-workload.md)
+- [Deploy Windows Server 2025 with SQL Server](./tutorials/deploy-windows-sql/index.md)
+  - [Prepare Windows Server](./tutorials/deploy-windows-sql/prepare-windows.md)
+  - [Install Windows Server 2025](./tutorials/deploy-windows-sql/install-windows.md)
+  - [Install SQL Server 2025](./tutorials/deploy-windows-sql/install-sql-server.md)
+  - [Verify the SQL Server Installation](./tutorials/deploy-windows-sql/verify-sql-server.md)
 
 # Feedback & Contributions
 
