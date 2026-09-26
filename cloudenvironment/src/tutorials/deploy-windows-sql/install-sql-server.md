@@ -11,7 +11,7 @@ This step installs [SQL Server 2025](https://www.microsoft.com/en-us/sql-server)
 2. Run the following command to download the SQL Server 2025 installer:
    ```powershell
    $ProgressPreference = 'SilentlyContinue' # Silencing the progress bar speeds up the download significantly
-   $url = "<Paste EXE link here>
+$url = "<Paste EXE link here>"
    Invoke-WebRequest -Uri $url -OutFile "C:\temp\SQLServer2025.exe"
    ```
 
