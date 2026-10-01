@@ -49,7 +49,7 @@
   - [Edit Datacenter](./user-guide/dc/dc_edit.md)
   - [Multi-Cluster Federations](./user-guide/dc/federations/index.md)
     - [Connectivity](./user-guide/dc/federations/connectivity.md)
-    - [View Federations](./user-guide/dc/federations/federations-page.md)
+    - [View Federations](./user-guide/dc/federations/view-federations.md)
     - [Create Federation](./user-guide/dc/federations/create-federation.md)
     - [Edit Federation](./user-guide/dc/federations/edit-federation.md)
     - [Delete Federation](./user-guide/dc/federations/delete-federation.md)
