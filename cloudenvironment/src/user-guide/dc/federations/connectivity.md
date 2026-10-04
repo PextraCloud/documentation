@@ -3,6 +3,8 @@ Federated clusters are fetched from the remote deployment using a best-effort st
 
 Every node in the local cluster must be able to reach the remote cluster, or federated resources may not be accessible.
 
+Any actions performed through the federation will use this API key, so ensure it has the necessary permissions. This means the API key should have read and write access to the resources that will be managed through the federation.
+
 ## Sync Status
 The sync status of a federation indicates the result of the last attempt to synchronize with the remote cluster.
 
