@@ -2,11 +2,15 @@
 > [!TIP]
 > Prepare the following information from the remote deployment before you start:
 > 1. The **remote cluster ID** (in the format `cls-xxxxxxxxxxxxxxxxxxxxx`): this can be copied from your browser's address bar when viewing the remote cluster's page.
-> 2. The **endpoint URL** of the remote deployment (in the format `https://federation.example.com:5007`): must be reachable from **all nodes** in your local cluster.
+> 2. The **endpoint URL** of the remote deployment (in the format `https://federation.example.com:5007`).
 > 3. An **API key** on the remote deployment that grants access to the federation endpoint.
 
 > [!NOTE]
 > Any actions performed through the federation will use this API key, so ensure it has the necessary permissions. Refer to the [Connectivity](./connectivity.md) section for more details.
+
+[!IMPORTANT]
+> The endpoint URL must use `https://` when communicating across clusters due to the transmission of sensitive information.
+> `http://` may be used for development or testing, or when the endpoint is on a trusted network. **Do not** use `http://` in production or on untrusted networks.
 
 1. Select the datacenter in the resource tree and view the page on the right. Click on the **Multi-Cluster Federations** tab in the right pane:
 
