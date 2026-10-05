@@ -6,13 +6,13 @@ Every node in the local cluster must be able to reach the remote cluster, or fed
 Any actions performed through the federation will use this API key, so ensure it has the necessary permissions. This means the API key should have read and write access to the resources that will be managed through the federation.
 
 ## Sync Status
-The sync status of a federation indicates the result of the last attempt to synchronize with the remote cluster.
+The sync status of a federation indicates the result of the last attempt to synchronize with the remote cluster. The last sync field shows the time of the most recent synchronization attempt.
 
 | Status  | Meaning |
 | - | - |
-| Pending | No sync attempt has been made since the federation was last updated. |
-| Synced | The last sync attempt succeeded. The `Last sync` column shows how recently. |
-| Failed | The last sync attempt failed. The remote cluster is unreachable or rejecting requests. Check network reachability and the API key. |
+| ![Pending badge](./images/connectivity-pending.png) | No sync attempt has been made since the federation was last updated. |
+| ![Synced badge](./images/connectivity-synced.png) | The last sync attempt succeeded. |
+| ![Failed badge](./images/connectivity-failed.png) | The last sync attempt failed. The remote cluster is unreachable or rejecting requests. Check network reachability and the API key. |
 
 ## API Connectivity
 When making API calls on resources present in the remote cluster, the `X-Pce-Cluster-Federation-Id` header must be included with the ID of the federation. This ensures that the local cluster can appropriately route the request to the correct federation. Failure to include this header will result in 4xx errors from the API.
