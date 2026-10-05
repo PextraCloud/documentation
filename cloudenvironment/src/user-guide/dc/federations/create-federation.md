@@ -8,7 +8,7 @@
 > [!NOTE]
 > Any actions performed through the federation will use this API key, so ensure it has the necessary permissions. Refer to the [Connectivity](./connectivity.md) section for more details.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > The endpoint URL must use `https://` when communicating across clusters due to the transmission of sensitive information.
 > `http://` may be used for development or testing, or when the endpoint is on a trusted network. **Do not** use `http://` in production or on untrusted networks.
 
