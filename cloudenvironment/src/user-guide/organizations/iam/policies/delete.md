@@ -6,6 +6,6 @@
     ![IAM Policies Page](./images/iam-policies-page.png)
 2. Click the **Delete** button beside the target policy:
     ![Delete Policy Button](./images/delete-policy-button.png)
-3. In the confirmation dialog, type "DESTROY" and click **Confirm** to confirm the deletion of the policy:
+3. In the confirmation dialog, type "DESTROY" and click **Finish** to confirm the deletion of the policy:
 
     ![Delete Policy Confirmation](./images/delete-policy-confirmation.png)
