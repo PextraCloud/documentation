@@ -14,8 +14,4 @@
 Once confirmed, the selected volume will be detached from the instance and will become available to attach to other instances if needed.
 
 > [!TIP]
-> You **cannot detach the root volume** of an instance.
-
-> [!TIP]
-> Detaching a volume **does not delete it**; it is simply removed from the instance. To view all volumes—both attached and detached—click on the **node** in the left navigation panel, then go to the **Storage** tab and select **Volumes**.
-
+> Detaching a volume **does not delete it**; it is simply removed from the instance. To view all volumes, both attached and detached, refer to the [List Volumes](./list.md) section.
