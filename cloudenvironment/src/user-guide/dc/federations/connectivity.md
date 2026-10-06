@@ -19,5 +19,6 @@ When making API calls on resources present in the remote cluster, the `X-Pce-Clu
 
 ## Limitations
 - Multi-cluster federation is a one-way mechanism, meaning that the local cluster is aware of the remote cluster's resources, but not vice versa. Accessing the web interface from the remote cluster will not display resources from the local cluster. This will be addressed in a future release.
+- A couple of UI features are not fully functional when dealing with federated resources. This will be addressed in a future release.
 - Chaining federations is not supported. Creating a federation from a cluster that is already part of another federation will not work as expected.
 - Authorization is enforced independently on both the local and remote clusters. Local authorization policies apply first, then remote authorization policies on the API key used to access the remote cluster are evaluated.
