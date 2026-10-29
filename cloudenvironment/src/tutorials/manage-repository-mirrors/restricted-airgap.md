@@ -33,7 +33,7 @@ pce-common:
   Candidate: <version>
   Version table:
  *** <version> 500
-        500 http://your-mirror-server bookworm/meta amd64 Packages
+        500 http://your-mirror-server trixie/meta amd64 Packages
         100 /var/lib/dpkg/status
 ```
 

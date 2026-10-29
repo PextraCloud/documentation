@@ -21,32 +21,32 @@ gpg --no-default-keyring --keyring trustedkeys.gpg --import /usr/share/keyrings/
 ## Configure the Mirror
 To mirror only one architecture (recommended), use the following command:
 ```bash
-aptly -architectures="<architecture>" mirror create pextra-ce-bookworm https://repo.pextra.cloud/debian/cloudenvironment bookworm common meta
+aptly -architectures="<architecture>" mirror create pextra-ce-trixie https://repo.pextra.cloud/debian/cloudenvironment trixie common meta
 ```
 where `<architecture>` can be `amd64` or `arm64`, depending on your server's architecture.
 
 To mirror all architectures, omit the `-architectures` option:
 ```bash
-aptly mirror create pextra-ce-bookworm https://repo.pextra.cloud/debian/cloudenvironment bookworm common meta
+aptly mirror create pextra-ce-trixie https://repo.pextra.cloud/debian/cloudenvironment trixie common meta
 ```
 
 ## Run Initial Sync
 At this point, you have created a mirror configuration but it is still empty. To perform the initial synchronization of the mirror, run:
 ```bash
-aptly mirror update pextra-ce-bookworm
+aptly mirror update pextra-ce-trixie
 ```
 This command may take some time, depending on your internet connection. It will download all packages and metadata from the Pextra repository.
 
 To verify the synchronization (after the `update` command completes), you can check the status of the mirror:
 ```bash
-aptly mirror show -with-packages pextra-ce-bookworm
+aptly mirror show -with-packages pextra-ce-trixie
 ```
 
 Sample output:
 ```
-Name: pextra-ce-bookworm
+Name: pextra-ce-trixie
 Archive Root URL: https://repo.pextra.cloud/debian/cloudenvironment/
-Distribution: bookworm
+Distribution: trixie
 Components: common, meta
 Architectures: amd64, arm64
 Download Sources: no
@@ -56,7 +56,7 @@ Number of packages: 17
 
 Information from release file:
 Architectures: amd64 arm64
-Codename: bookworm
+Codename: trixie
 Components: common meta
 Date: Tue, 12 Aug 2025 19:15:03 UTC
 Description:  Pextra Inc. Debian repository
@@ -75,8 +75,8 @@ This will ensure that your mirror stays synchronized with the Pextra repository.
 ## Prepare the Mirror for Publishing
 To make the mirrored repository available for use, you need to take a snapshot. Taking a snapshot allows you to create a versioned point-in-time copy of the mirror, which can be useful for rollback or auditing purposes:
 ```bash
-# Create a snapshot of the mirror (e.g. pextra-ce-bookworm-20250812)
-aptly snapshot create pextra-ce-bookworm-$(date +%Y%m%d) from mirror pextra-ce-bookworm
+# Create a snapshot of the mirror (e.g. pextra-ce-trixie-20250812)
+aptly snapshot create pextra-ce-trixie-$(date +%Y%m%d) from mirror pextra-ce-trixie
 ```
 
 Before publishing, [a GPG key must be generated](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) to sign the mirror, if you haven't done so already. Refer to the above link for instructions on generating a GPG key.
@@ -93,7 +93,7 @@ This will display your GPG keys, including their fingerprints. Copy the fingerpr
 ## Publish the Mirror
 To publish the mirror, you can use the following command:
 ```bash
-aptly publish snapshot -gpg-key=<your-gpg-key-fingerprint> pextra-ce-bookworm-$(date +%Y%m%d)
+aptly publish snapshot -gpg-key=<your-gpg-key-fingerprint> pextra-ce-trixie-$(date +%Y%m%d)
 ```
 Sample output:
 ```
@@ -103,10 +103,10 @@ Finalizing metadata files...
 Signing file 'Release' with gpg, please enter your passphrase when prompted:
 Clearsigning file 'Release' with gpg, please enter your passphrase when prompted:
 
-Snapshot pextra-ce-bookworm-20250812 has been successfully published.
+Snapshot pextra-ce-trixie-20250812 has been successfully published.
 Please setup your webserver to serve directory '/home/user/.aptly/public' with autoindexing.
 Now you can add following line to apt sources:
-  deb http://your-server/ bookworm main
+  deb http://your-server/ trixie common meta
 Don't forget to add your GPG key to apt with apt-key.
 
 You can also use `aptly serve` to publish your repositories over HTTP quickly.
@@ -120,9 +120,9 @@ To keep your mirror up to date, you can set up a cron job to run an update scrip
 ```bash
 cat << 'EOF' > /usr/local/bin/update-pextra-mirror.sh
 #!/bin/bash
-aptly mirror update pextra-ce-bookworm
-aptly snapshot create pextra-ce-bookworm-$(date +%Y%m%d) from mirror pextra-ce-bookworm
-aptly publish snapshot -gpg-key=<your-gpg-key-fingerprint> pextra-ce-bookworm-$(date +%Y%m%d)
+aptly mirror update pextra-ce-trixie
+aptly snapshot create pextra-ce-trixie-$(date +%Y%m%d) from mirror pextra-ce-trixie
+aptly publish snapshot -gpg-key=<your-gpg-key-fingerprint> pextra-ce-trixie-$(date +%Y%m%d)
 EOF
 chmod +x /usr/local/bin/update-pextra-mirror.sh
 
